@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Display a map on a webpage</title>
-<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-<link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
-<script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
-<style>
-body { margin: 0; padding: 0; }
-#map { position: absolute; top: 0; bottom: 0; width: 100%; }
-#a{
-	background: #FFFFFF;
-	position: fixed;
-	left: 0%;
-	top: 0%;
-	transform: translate(0%, 0%);
-	width: 20%;
-	height: 100%;
-	text-align: center;
-}
-#type{
-	left: 2%;
-	position: fixed;
-}
-select{
-	margin-left: 35px;
-}
-</style>
+	<meta charset="utf-8">
+	<title>Display a map on a webpage</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+	<link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+	<script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		#map {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 100%;
+		}
+
+		#a {
+			background: #FFFFFF;
+			position: fixed;
+			left: 0%;
+			top: 0%;
+			transform: translate(0%, 0%);
+			width: 20%;
+			height: 100%;
+			text-align: center;
+		}
+
+		#type {
+			left: 2%;
+			position: fixed;
+		}
+
+		select {
+			margin-left: 35px;
+		}
+	</style>
 </head>
+
 <body>
-<div id="map"></div>
-<div id="a">
-<h4>Программа "Голодный студент"</h4>
-<span id="type">Тип еды</span>
-<select>
-<option value="">Кофе</option>
-<option value="">Слойки с малиной</option>
-<option value="">option3</option>
-<option value="">option3</option>
-</select>
-</div>
-<script src="main.js">
-</script>
+	<div id="map"></div>
+	<div id="a">
+		<h4>Программа "Голодный студент"</h4>
+		<span id="type">Тип еды</span>
+		<select>
+			<option value="">Кофе</option>
+			<option value="">Слойки с малиной</option>
+			<option value="">option3</option>
+			<option value="">option3</option>
+		</select>
+	</div>
+	<script src="main.js">
+	</script>
 
 </body>
+
 </html>

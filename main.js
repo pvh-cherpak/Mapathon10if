@@ -15,6 +15,7 @@ map.on('load', () => {
 		'id': 'places',
 		'type': 'circle',
 		'source': 'places',
+		filter: ["==", ["get", "name"], "Хинкальня"],
 		'paint': {
 			'circle-color': '#4264fb',
 			'circle-radius': 6,
@@ -22,8 +23,13 @@ map.on('load', () => {
 			'circle-stroke-color': '#ffffff'
 		}
 });
+map.on('click', 'places', (e)=>{
+	console.log(e.features);
+});
 
 });
+
+
 
 
 function checkForm (forma){
