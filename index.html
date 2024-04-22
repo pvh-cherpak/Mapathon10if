@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form id="main-form" onsubmit="return checkForm(this)" method="post">
+        <label for="name">Имя:</label>
+        <input type="text" name="name" placeholder="Имя" id="name"> <br><br>
+        <label for="password">Пароль:</label>
+        <input type="password" name="pass" placeholder="Проверка пароля" id="repass"><br><br>
+        <span>Пол:</span>
+        <input type="radio" name="state" id="male" value="Man">
+        <label for="male">Мужской</label>
+        <input type="radio" name="state" id="female" value="female">
+        <label for="female">Женский</label> <br><br>
+        <div id="error" style="color: red;"></div>
+        <input type="submit" name="submit" value="Готово">
+    </form>
+
+
+    <script src="main.js">  </script>
+  </body>
+</html>
