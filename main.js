@@ -88,6 +88,8 @@ var jsonDataAkcii;
 (async () => {
 	let response = await fetch('./akcii.json');
 	jsonDataAkcii = await response.json();
+	console.log(jsonDataAkcii);
+
 })();
 
 
@@ -126,7 +128,6 @@ function select(selector) {
 
 
 var ui = document.getElementById("ui")
-var select1 = document.getElementById("select1")
 var foodSelect = document.getElementById("select1")
 
 function switchMode(slider) {
