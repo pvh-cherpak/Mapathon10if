@@ -97,8 +97,9 @@ function select(selector) {
 var ui = document.getElementById("ui")
 var foodSelect = document.getElementById("select1")
 
-function switchMode() {
-	mode = 1 - mode
-	if (mode) map.setStyle('mapbox://styles/mapbox/dark-v12');
+function switchMode(){
+	mode = 1-mode
+	if(mode) map.setStyle('mapbox://styles/mapbox/dark-v11');
+
 	else map.setStyle('mapbox://styles/mapbox/streets-v12');
 }
