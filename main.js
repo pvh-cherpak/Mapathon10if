@@ -106,7 +106,4 @@ function switchMode(){
 		map.setStyle('mapbox://styles/mapbox/streets-v12'),
 		document.ui.className = 'light-theme';
 	} 
-	if(mode) map.setStyle('mapbox://styles/mapbox/dark-v11');
-
-	else map.setStyle('mapbox://styles/mapbox/streets-v12');
 }
