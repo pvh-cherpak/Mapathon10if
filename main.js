@@ -104,3 +104,8 @@ function switchMode(){
 
 	else map.setStyle('mapbox://styles/mapbox/streets-v12');
 }
+
+function visyal_promotion(f){
+	var d = document.getElementById("sales")
+	d.innerHTML = '<div id="restNameHead">Ресторан ' + f[0].id + '</div>'
+}
