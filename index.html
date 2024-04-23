@@ -17,7 +17,7 @@
 		body {
 			margin: 0;
 			padding: 0;
-			transition: background-color 0.5s ease;
+			transition: background-color 0.3s ease;
 		}
 
 		#map {
@@ -48,8 +48,6 @@
 			left: 100%;
 			transform: translate(50%, 0%);
 			font-size: 20px;
-			border-radius: 5px;
-			transition: background-color 0.5s ease;
 		}
 		#type {
 			font-size: 20px;
@@ -116,11 +114,10 @@ input:checked + .slider:before {
 .slider:before {
   border-radius: 50%;
 }
-#emoji{
+.emoji{
 	font-size: 20px;
 	user-select: none;
 }
-
 #modeDiv{
 	position: fixed;
 }
@@ -133,7 +130,15 @@ input:checked + .slider:before {
 	background-color: gray;
 	opacity: 0.5;
 	margin-top: 10px;
-}		
+}
+#salesFound{
+	font-weight: bold;
+	left: 50%;
+	font-size: 25px;
+}
+.b1{
+	transform: translate(0%, -20%);
+}
 	</style>
 </head>
 
@@ -143,7 +148,7 @@ input:checked + .slider:before {
 		<div id="modeDiv">
 			<span class="emoji">☀︎</span>
 			<label id="nightMode" class="switch">
-  				<input id="slider_nith_day" type="checkbox" onchange="switchMode(this) " >
+  				<input id="slider_nith_day" type="checkbox" onchange="switchMode(this)">
   				<span class="slider round"></span>
 			</label>
 			<span class="emoji">☽</span>
@@ -156,17 +161,12 @@ input:checked + .slider:before {
 			<option value="суши">Суши</option>
 		</select>
 		<div class="line"></div>
-		<div id="sales"></div>
-	</div>
-	<div id="modeDiv">
-		<span class="emoji">☀︎</span>
-		<label id="nightMode" class="switch">
-  			<input type="checkbox" onchange="switchMode()">
-  			<span class="slider round">
-				
-			</span>
-		</label>
-		<span class="emoji">☽</span>
+		<div id="buttons1">
+		<button onclick="left()" class="b1"><</button>
+		<span id="salesFound">Найдены акции</span>
+		<button onclick="right()" class="b1">></button>
+		</div>
+		<div id="sales">Нажмите на ресторан, чтобы увидеть действующие акции и предложения</div>
 	</div>
 	<script src="main.js"></script>
 	
