@@ -1,4 +1,17 @@
 var akcii;
+// Add geolocate control to the map.
+    map.addControl(
+        new mapboxgl.GeolocateControl({
+            positionOptions: {
+                enableHighAccuracy: true
+            },
+            // When active the map will receive updates to the device's location as it changes.
+            trackUserLocation: true,
+            // Draw an arrow next to the location dot to indicate which direction the device is heading.
+            showUserHeading: true
+        })
+    );
+
 fetch('akcii.json')
 	.then(response => {
 		if (!response.ok) {
@@ -114,6 +127,19 @@ function select(sel) {
 	}
 }
 
+///
+	
+//time of a day
+const hour = parseInt(event.target.value);  
+// update the map  
+filterHour = ['==', ['number', ['get', 'Hour']], hour];  
+map.setFilter('collisions', ['all', filterHour, filterDay]);  
+	
+// converting 0-23 hour to AMPM format  
+const ampm = hour >= 12 ? 'PM' : 'AM';  
+const hour12 = hour % 12 ? hour % 12 : 12;  
+	
+// update text in the UI  
+document.getElementById('active-hour').innerText = hour12 + ampm;
 
-
-
+///
