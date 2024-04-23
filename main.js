@@ -6,7 +6,6 @@ const map = new mapboxgl.Map({
 	zoom: 9, // starting zoom
 });
 
-
 map.on('load', () => {
 	// Add geolocate control to the map.
 	map.addControl(
@@ -20,7 +19,7 @@ map.on('load', () => {
 			showUserHeading: true
 		})
 	);
-	map.addSource('places', {
+	map.addSource('restarans_sourse', {
 		'type': 'geojson',
 		'data': './restaurants.geojson'
 	});
@@ -28,7 +27,7 @@ map.on('load', () => {
 		'id': 'restarans',
 		'visibility': 'none',
 		'type': 'circle',
-		'source': 'places',
+		'source': 'restarans',
 		'paint': {
 			'circle-color': '#4264fb',
 			'circle-radius': 6,
@@ -37,7 +36,7 @@ map.on('load', () => {
 		}
 	});
 	map.on('click', 'restarans', (e) => {
-		console.log(e.features[0].id);
+		console.log(e.features.properties);
 		visyal_promotion(e.features);
 	});
 });
@@ -63,24 +62,24 @@ function buildFilter(arr) {
 }
 
 var jsonDataAkcii = {
-    "data": 22,
-    "promotion":[
-        {
-            "name_of_restaurant":"Додо Пицца",
-            "description":"купон 2099",
-            "type" : "пицца",
-        }
-    ]
+	"data": 22,
+	"promotion": [
+		{
+			"name_of_restaurant": "Додо Пицца",
+			"description": "купон 2099",
+			"type": "пицца",
+		}
+	]
 };
 
 
 function Filterbytype(jsonDataAkcii, filter) {
-	var mass=[];
+	var mass = [];
 	for (var i = 0; i < jsonDataAkcii.promotion.length; i += 1) {
-		if (jsonDataAkcii.promotion[i].type == filter){
-				console.log(jsonDataAkcii.promotion[i].name_of_restaurant);
-				mass.push(jsonDataAkcii.promotion[i].name_of_restaurant);
-			}
+		if (jsonDataAkcii.promotion[i].type == filter) {
+			console.log(jsonDataAkcii.promotion[i].name_of_restaurant);
+			mass.push(jsonDataAkcii.promotion[i].name_of_restaurant);
+		}
 	}
 
 	return mass;
@@ -97,9 +96,11 @@ var ui = document.getElementById("ui")
 var foodSelect = document.getElementById("select1")
 var mode = 0;
 
-function switchMode(){
-	mode = 1-mode
-	if(mode) map.setStyle('mapbox://styles/mapbox/dark-v11');
+function switchMode() {
+
+	mode = 1 - mode
+	if (mode) map.setStyle('mapbox://styles/mapbox/dark-v11');
 
 	else map.setStyle('mapbox://styles/mapbox/streets-v12');
+
 }
