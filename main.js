@@ -8,6 +8,7 @@ const map = new mapboxgl.Map({
 
 var page_promoute = 0;
 var promoute;
+var currentPage = 0
 
 map.on('load', () => {
 	// Add geolocate control to the map.
@@ -122,6 +123,7 @@ var foodSelect = document.getElementById("select1")
 var mode = 0;
 
 function switchMode() {
+	currentPage = 0
 	mode = 1 - mode
 	if(mode){ 
 		map.setStyle('mapbox://styles/mapbox/dark-v11'),
@@ -147,13 +149,23 @@ function visyal_promotion(f) {
 	var d = document.getElementById("sales");
 	document.getElementById("buttons1").style.display = ""
 	var mon = -1;
-	for (var i = 0; i<jsonDataAkcii.promotion.length; i++)
+	var proms = []
+	for (var i = 0; i<jsonDataAkcii.promotion.length; i++){
 		if (jsonDataAkcii.promotion[i].adr_work.find(function(a, b,c){return a==f[0].id;}) != undefined){
 			mon++;
 			if (mon==page_promoute){
-				d.innerHTML = '<div id="restNameHead">' + jsonDataAkcii.promotion[i].description + '</div>';
+				proms.push('<div id="restNameHead">' + jsonDataAkcii.promotion[i].description + '</div>');
 			}
 		}
+	}	
+	d.innerHTML = proms[currentPage]
+}
+
+function left(){
+	currentPage--
+}
+function right(){
+	currentPage++
 }
 
 document.getElementById("buttons1").style.display = "None"
