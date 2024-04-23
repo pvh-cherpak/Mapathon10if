@@ -8,13 +8,13 @@
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
-                "street": "<p>Минск, улица Романовская Слобода, 8</p>"
+                "street": "<p>Минск, Партизанский проспект, 87</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.547467,
-                    53.902579
+                    27.633207,
+                    53.874441
                 ]
             },
             "id": 1
@@ -23,42 +23,6 @@
             "type": "Feature",
             "properties": {
                 "@id": 2,
-                "name": "<strong>Додо Пицца</strong>",
-                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
-                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
-                "street": "<p>Минск, улица Максима Богдановича, 62</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.568691,
-                    53.921815
-                ]
-            },
-            "id": 2
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 3,
-                "name": "<strong>Додо Пицца</strong>",
-                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
-                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
-                "street": "<p>Минск, улица Сурганова, 50к1</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.587092,
-                    53.928727
-                ]
-            },
-            "id": 3
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 4,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -71,6 +35,42 @@
                     53.929312
                 ]
             },
+            "id": 2
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 3,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, улица Романовская Слобода, 8</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.547467,
+                    53.902579
+                ]
+            },
+            "id": 3
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 4,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, улица Максима Богдановича, 62</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.568691,
+                    53.921815
+                ]
+            },
             "id": 4
         },
         {
@@ -80,13 +80,13 @@
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
-                "street": "<p>Минск, Партизанский проспект, 87</p>"
+                "street": "<p>Минск, Партизанский проспект, 182</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.633207,
-                    53.874441
+                    27.6989,
+                    53.849441
                 ]
             },
             "id": 5
@@ -95,6 +95,96 @@
             "type": "Feature",
             "properties": {
                 "@id": 6,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, Ленинский район, микрорайон Лошица, улица Иосифа Гошкевича, 3</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.569397,
+                    53.839909
+                ]
+            },
+            "id": 6
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 7,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, улица Сурганова, 50к1</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.587092,
+                    53.928727
+                ]
+            },
+            "id": 7
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 8,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, улица Петра Мстиславца, 11</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.652689,
+                    53.933487
+                ]
+            },
+            "id": 8
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 9,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, проспект Независимости, 179</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.688788,
+                    53.94655
+                ]
+            },
+            "id": 9
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 10,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, улица Притыцкого, 156к1-1</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.429979,
+                    53.908731
+                ]
+            },
+            "id": 10
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 11,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -107,30 +197,48 @@
                     53.871071
                 ]
             },
-            "id": 6
+            "id": 11
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 7,
+                "@id": 12,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
-                "street": "<p>Минск, улица Притыцкого, 28А</p>"
+                "street": "<p>Минск, улица Одинцова, 65</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.496283,
-                    53.909952
+                    27.440858,
+                    53.900221
                 ]
             },
-            "id": 7
+            "id": 12
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 8,
+                "@id": 13,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>пн 11:00–22:00; вт-вс 10:00–22:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минский район, Боровлянский сельсовет, 74</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.624518,
+                    53.963888
+                ]
+            },
+            "id": 13
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 14,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -143,130 +251,22 @@
                     53.87644
                 ]
             },
-            "id": 8
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 9,
-                "name": "<strong>Domino’s Pizza</strong>",
-                "opening_hours": "<p>ежедневно, 11:00–01:00</p>",
-                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
-                "street": "<p>Минск, проспект Победителей, 1</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.551892,
-                    53.905652
-                ]
-            },
-            "id": 9
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 10,
-                "name": "<strong>Domino’s Pizza</strong>",
-                "opening_hours": "<p>ежедневно, 11:00–00:00</p>",
-                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
-                "street": "<p>Минск, улица Воронянского, 19</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.54821,
-                    53.878078
-                ]
-            },
-            "id": 10
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 11,
-                "name": "<strong>Domino’s Pizza</strong>",
-                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
-                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
-                "street": "<p>Минск, улица Сурганова, 50, корп. 1</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.587219,
-                    53.928726
-                ]
-            },
-            "id": 11
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 12,
-                "name": "<strong>Domino’s Pizza</strong>",
-                "opening_hours": "<p>пн 11:00–00:00; вт-вс 11:00–23:00</p>",
-                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
-                "street": "<p>Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 1</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.597689,
-                    53.874811
-                ]
-            },
-            "id": 12
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 13,
-                "name": "<strong>Domino’s Pizza</strong>",
-                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
-                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
-                "street": "<p>Минск, Орловская улица, 40</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.555669,
-                    53.932734
-                ]
-            },
-            "id": 13
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 14,
-                "name": "<strong>Domino’s Pizza</strong>",
-                "opening_hours": "<p>ежедневно, 07:00–06:00</p>",
-                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
-                "street": "<p>Минск, улица Ольшевского, 24</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.499578,
-                    53.919998
-                ]
-            },
             "id": 14
         },
         {
             "type": "Feature",
             "properties": {
                 "@id": 15,
-                "name": "<strong>Domino’s Pizza</strong>",
+                "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
-                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
-                "street": "<p>Минск, проспект Победителей, 84</p>"
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, проспект Газеты Звязда, 53</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.487154,
-                    53.937873
+                    27.462652,
+                    53.859523
                 ]
             },
             "id": 15
@@ -275,6 +275,96 @@
             "type": "Feature",
             "properties": {
                 "@id": 16,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, улица Притыцкого, 28А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.496283,
+                    53.909952
+                ]
+            },
+            "id": 16
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 17,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, проспект Дзержинского, 126</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.470895,
+                    53.847363
+                ]
+            },
+            "id": 17
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 18,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, улица Притыцкого, 93</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.440272,
+                    53.906211
+                ]
+            },
+            "id": 18
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 19,
+                "name": "<strong>Додо Пицца</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
+                "street": "<p>Минск, улица Петра Глебки, 5</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.469672,
+                    53.908428
+                ]
+            },
+            "id": 19
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 20,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, улица Нестерова, 58</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.68508,
+                    53.883903
+                ]
+            },
+            "id": 20
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 21,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -287,12 +377,66 @@
                     53.934184
                 ]
             },
-            "id": 16
+            "id": 21
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 17,
+                "@id": 22,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>пн 11:00–00:00; вт-вс 11:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 1</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.597689,
+                    53.874811
+                ]
+            },
+            "id": 22
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 23,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–01:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, проспект Победителей, 1</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.551892,
+                    53.905652
+                ]
+            },
+            "id": 23
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 24,
+                "name": "<strong>Domino's Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, проспект Независимости, 179</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.687781,
+                    53.946355
+                ]
+            },
+            "id": 24
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 25,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -305,12 +449,30 @@
                     53.957103
                 ]
             },
-            "id": 17
+            "id": 25
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 18,
+                "@id": 26,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, улица Сурганова, 50, корп. 1</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.587219,
+                    53.928726
+                ]
+            },
+            "id": 26
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 27,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -323,102 +485,246 @@
                     53.864838
                 ]
             },
-            "id": 18
+            "id": 27
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 19,
-                "name": "<strong>KFC</strong>",
-                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
-                "website": "<a href=\"https://www.kfc.by/\">https://www.kfc.by/</a>",
-                "street": "<p>Минск, улица Ленина, 18</p>"
+                "@id": 28,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, Орловская улица, 40</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.560457,
-                    53.898928
+                    27.555669,
+                    53.932734
                 ]
             },
-            "id": 19
+            "id": 28
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 20,
+                "@id": 29,
+                "name": "<strong>Domino's Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, Заводской район, микрорайон Чижовка, улица Уборевича, 176</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.605464,
+                    53.835113
+                ]
+            },
+            "id": 29
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 30,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, проспект Победителей, 84</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.487154,
+                    53.937873
+                ]
+            },
+            "id": 30
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 31,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–00:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, улица Воронянского, 19</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.54821,
+                    53.878078
+                ]
+            },
+            "id": 31
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 32,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–00:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, улица Кунцевщина, 2А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.436749,
+                    53.90786
+                ]
+            },
+            "id": 32
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 33,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, улица Лейтенанта Кижеватова, 72, корп. 2</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.534356,
+                    53.846874
+                ]
+            },
+            "id": 33
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 34,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 07:00–06:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, улица Ольшевского, 24</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.499578,
+                    53.919998
+                ]
+            },
+            "id": 34
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 35,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–00:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, проспект Дзержинского, 106</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.477361,
+                    53.858675
+                ]
+            },
+            "id": 35
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 36,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, улица Рафиева, 64</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.44169,
+                    53.8626
+                ]
+            },
+            "id": 36
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 37,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, проспект Дзержинского, 57</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.497218,
+                    53.875607
+                ]
+            },
+            "id": 37
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 38,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, улица Шаранговича, 25</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.448767,
+                    53.883608
+                ]
+            },
+            "id": 38
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 39,
+                "name": "<strong>Domino’s Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
+                "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
+                "street": "<p>Минск, Каменногорская улица, 3</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.415479,
+                    53.911688
+                ]
+            },
+            "id": 39
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 40,
                 "name": "<strong>KFC</strong>",
-                "opening_hours": "<p>ежедневно, 04:00–03:00</p>",
+                "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
-                "street": "<p>Минск, улица Кирова, 1</p>"
+                "street": "<p>Минск, улица Маяковского, 115</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.55097,
-                    53.891949
+                    27.572461,
+                    53.863122
                 ]
             },
-            "id": 20
+            "id": 40
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 21,
-                "name": "<strong>KFC</strong>",
-                "opening_hours": "<p>пн-чт 08:00–00:00; пт,сб 08:00–02:00; вс 08:00–00:00</p>",
-                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
-                "street": "<p>Минск, проспект Победителей, 1</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.552566,
-                    53.905127
-                ]
-            },
-            "id": 21
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 22,
-                "name": "<strong>KFC</strong>",
-                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
-                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
-                "street": "<p>Минск, проспект Победителей, 7</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.549801,
-                    53.908274
-                ]
-            },
-            "id": 22
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 23,
-                "name": "<strong>KFC</strong>",
-                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
-                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
-                "street": "<p>Минск, Московская улица, 22</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.537165,
-                    53.886582
-                ]
-            },
-            "id": 23
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 24,
+                "@id": 41,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -431,30 +737,228 @@
                     53.921898
                 ]
             },
-            "id": 24
+            "id": 41
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 25,
+                "@id": 42,
                 "name": "<strong>KFC</strong>",
-                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
-                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
-                "street": "<p>Минск, Сухая улица, 1</p>"
+                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
+                "website": "<a href=\"https://www.kfc.by/\">https://www.kfc.by/</a>",
+                "street": "<p>Минск, улица Ленина, 18</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.541451,
-                    53.904774
+                    27.560457,
+                    53.898928
                 ]
             },
-            "id": 25
+            "id": 42
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 26,
+                "@id": 43,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"https://www.kfc.by/\">https://www.kfc.by/</a>",
+                "street": "<p>Минск, Партизанский проспект, 150А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.675178,
+                    53.859222
+                ]
+            },
+            "id": 43
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 44,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Московская улица, 22</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.537165,
+                    53.886582
+                ]
+            },
+            "id": 44
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 45,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Ленинский район, микрорайон Серебрянка, проспект Рокоссовского, 2</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.595382,
+                    53.874544
+                ]
+            },
+            "id": 45
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 46,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 04:00–03:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Кирова, 1</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.55097,
+                    53.891949
+                ]
+            },
+            "id": 46
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 47,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Заводской район, микрорайон Чижовка, улица Уборевича, 176</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.606978,
+                    53.835163
+                ]
+            },
+            "id": 47
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 48,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минский район, Боровлянский сельсовет, деревня Валерьяново, Логойская улица, 5А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.648148,
+                    53.970269
+                ]
+            },
+            "id": 48
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 49,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 07:00–00:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, проспект Независимости, 179</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.688303,
+                    53.946314
+                ]
+            },
+            "id": 49
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 50,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Братская улица, 6А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.551651,
+                    53.870505
+                ]
+            },
+            "id": 50
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 51,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, проспект Победителей, 7</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.549801,
+                    53.908274
+                ]
+            },
+            "id": 51
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 52,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, проспект Дзержинского, 94</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.48498,
+                    53.865275
+                ]
+            },
+            "id": 52
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 53,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Петра Мстиславца, 11</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.653005,
+                    53.933603
+                ]
+            },
+            "id": 53
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 54,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -467,30 +971,120 @@
                     53.919206
                 ]
             },
-            "id": 26
+            "id": 54
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 27,
+                "@id": 55,
                 "name": "<strong>KFC</strong>",
-                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
+                "opening_hours": "<p>пн-чт 08:00–00:00; пт,сб 08:00–02:00; вс 08:00–00:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
-                "street": "<p>Минск, Бобруйская улица, 19</p>"
+                "street": "<p>Минск, проспект Победителей, 1</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.554651,
-                    53.890705
+                    27.552566,
+                    53.905127
                 ]
             },
-            "id": 27
+            "id": 55
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 28,
+                "@id": 56,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"https://www.kfc.by/\">https://www.kfc.by/</a>",
+                "street": "<p>Минск, улица Ольшевского, 45</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.498484,
+                    53.919491
+                ]
+            },
+            "id": 56
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 57,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Сурганова, 57А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.581492,
+                    53.929174
+                ]
+            },
+            "id": 57
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 58,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Каролинская улица, 5</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.484699,
+                    53.850311
+                ]
+            },
+            "id": 58
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 59,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Дунина-Марцинкевича, 11</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.491797,
+                    53.907327
+                ]
+            },
+            "id": 59
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 60,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Ленинградская улица, 18</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.548159,
+                    53.8925
+                ]
+            },
+            "id": 60
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 61,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>пн-чт 08:00–00:00; пт,сб 08:00–01:00; вс 08:00–00:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -503,84 +1097,498 @@
                     53.891733
                 ]
             },
-            "id": 28
+            "id": 61
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 29,
-                "name": "<strong>Burger King</strong>",
+                "@id": 62,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Уманская улица, 54</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.498164,
+                    53.87549
+                ]
+            },
+            "id": 62
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 63,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Кальварийская улица, 21</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.528123,
+                    53.906164
+                ]
+            },
+            "id": 63
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 64,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Жудро, 53А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.478793,
+                    53.919481
+                ]
+            },
+            "id": 64
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 65,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минский район, Боровлянский сельсовет, деревня Боровая, 5</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.624646,
+                    53.964035
+                ]
+            },
+            "id": 65
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 66,
+                "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
-                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
-                "street": "<p>Минск, улица Кирова, 2</p>"
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Бобруйская улица, 19</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.552123,
-                    53.891777
+                    27.554651,
+                    53.890705
                 ]
             },
-            "id": 29
+            "id": 66
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 30,
-                "name": "<strong>Burger King</strong>",
-                "opening_hours": "<p>пн-чт 08:00–23:00; пт,сб 08:00–00:00; вс 08:00–23:00</p>",
-                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
-                "street": "<p>Минск, площадь Свободы, 17</p>"
+                "@id": 67,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://www.kfc.by/\">http://www.kfc.by/</a>",
+                "street": "<p>Минск, Путейская улица, 11, корп. 12</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.553285,
-                    53.904707
+                    27.516769,
+                    53.876806
                 ]
             },
-            "id": 30
+            "id": 67
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 31,
-                "name": "<strong>Burger King</strong>",
-                "opening_hours": "<p>ежедневно, 07:00–23:00</p>",
-                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
-                "street": "<p>Минск, Привокзальная площадь, 7</p>"
+                "@id": 68,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Шаранговича, 25</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.550366,
-                    53.890038
+                    27.448261,
+                    53.883664
                 ]
             },
-            "id": 31
+            "id": 68
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 32,
-                "name": "<strong>Burger King</strong>",
-                "opening_hours": "<p>ежедневно, 09:00–22:00</p>",
-                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
-                "street": "<p>Минск, улица Веры Хоружей, 18Б</p>"
+                "@id": 69,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, проспект Газеты Звязда, 53</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.568531,
-                    53.921673
+                    27.462426,
+                    53.859477
                 ]
             },
-            "id": 32
+            "id": 69
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 33,
+                "@id": 70,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, проспект Победителей, 84</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.488187,
+                    53.937778
+                ]
+            },
+            "id": 70
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 71,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Сухая улица, 1</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.541451,
+                    53.904774
+                ]
+            },
+            "id": 71
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 72,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 06:00–02:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Притыцкого, 101А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.435305,
+                    53.906373
+                ]
+            },
+            "id": 72
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 73,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, проспект Дзержинского, 91</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.48235,
+                    53.858975
+                ]
+            },
+            "id": 73
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 74,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Тимирязева, 129</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.442704,
+                    53.939217
+                ]
+            },
+            "id": 74
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 75,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Налибокская улица, 36</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.433209,
+                    53.928019
+                ]
+            },
+            "id": 75
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 76,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Петра Глебки, 5</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.469565,
+                    53.908412
+                ]
+            },
+            "id": 76
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 77,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, проспект Независимости, 3/2</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.548142,
+                    53.895422
+                ]
+            },
+            "id": 77
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 78,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Монтажников, 2</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.416743,
+                    53.873835
+                ]
+            },
+            "id": 78
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 79,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, проспект Газеты Звязда, 16</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.467391,
+                    53.865377
+                ]
+            },
+            "id": 79
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 80,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"https://www.kfc.by/\">https://www.kfc.by/</a>",
+                "street": "<p>Минский район, Щомыслицкий сельсовет, 32, корп. 4</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.433923,
+                    53.849677
+                ]
+            },
+            "id": 80
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 81,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>пн-пт 10:00–22:00; сб 10:00–23:00; вс 10:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Тимирязева, 74А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.509666,
+                    53.926894
+                ]
+            },
+            "id": 81
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 82,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Притыцкого, 146А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.436644,
+                    53.907306
+                ]
+            },
+            "id": 82
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 83,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, проспект Победителей, 9</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.548849,
+                    53.908321
+                ]
+            },
+            "id": 83
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 84,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, Казимировская улица, 6</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.430146,
+                    53.917168
+                ]
+            },
+            "id": 84
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 85,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Максима Горецкого, 2, корп. 1</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.464945,
+                    53.876169
+                ]
+            },
+            "id": 85
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 86,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, улица Притыцкого, 156</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.429993,
+                    53.908819
+                ]
+            },
+            "id": 86
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 87,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
+                "street": "<p>Минск, проспект Жукова, 44</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.518571,
+                    53.876611
+                ]
+            },
+            "id": 87
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 88,
+                "name": "<strong>KFC</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"http://www.kfc.by/\">http://www.kfc.by/</a>",
+                "street": "<p>Минск, улица Шаранговича, 25</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.447644,
+                    53.883463
+                ]
+            },
+            "id": 88
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 89,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -593,66 +1601,84 @@
                     53.874526
                 ]
             },
-            "id": 33
+            "id": 89
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 34,
+                "@id": 90,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
-                "street": "<p>Минск, проспект Независимости, 56</p>"
+                "street": "<p>Минск, Партизанский проспект, 182</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.586628,
-                    53.91692
+                    27.698822,
+                    53.849447
                 ]
             },
-            "id": 34
+            "id": 90
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 35,
+                "@id": 91,
                 "name": "<strong>Burger King</strong>",
-                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
-                "street": "<p>Минск, проспект Победителей, 9</p>"
+                "street": "<p>Минск, улица Кирова, 2</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.548963,
-                    53.908361
+                    27.552123,
+                    53.891777
                 ]
             },
-            "id": 35
+            "id": 91
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 36,
+                "@id": 92,
                 "name": "<strong>Burger King</strong>",
-                "opening_hours": "<p>пн-чт 10:00–22:00; пт-вс 10:00–23:00</p>",
+                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
-                "street": "<p>Минск, Кальварийская улица, 24</p>"
+                "street": "<p>Минский район, Боровлянский сельсовет, деревня Боровая, Кольцевая улица, 4</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.52816,
-                    53.908416
+                    27.644809,
+                    53.964716
                 ]
             },
-            "id": 36
+            "id": 92
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 37,
+                "@id": 93,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–22:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, улица Веры Хоружей, 18Б</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.568531,
+                    53.921673
+                ]
+            },
+            "id": 93
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 94,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>пн-чт 08:00–22:00; пт-вс 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -665,12 +1691,12 @@
                     53.925119
                 ]
             },
-            "id": 37
+            "id": 94
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 38,
+                "@id": 95,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -683,30 +1709,372 @@
                     53.871062
                 ]
             },
-            "id": 38
+            "id": 95
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 39,
-                "name": "<strong>TokiNY</strong>",
-                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
-                "website": "<a href=\"https://tokiny.by/\">https://tokiny.by/</a>",
-                "street": "<p>Минск, проспект Независимости, 47</p>"
+                "@id": 96,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, проспект Независимости, 179</p>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    27.580521,
-                    53.913778
+                    27.689084,
+                    53.946613
                 ]
             },
-            "id": 39
+            "id": 96
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 40,
+                "@id": 97,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, проспект Независимости, 56</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.586628,
+                    53.91692
+                ]
+            },
+            "id": 97
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 98,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, улица Сурганова, 50к1</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.586807,
+                    53.928821
+                ]
+            },
+            "id": 98
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 99,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, улица Петра Мстиславца, 11</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.652223,
+                    53.933853
+                ]
+            },
+            "id": 99
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 100,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 07:00–23:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, Привокзальная площадь, 7</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.550366,
+                    53.890038
+                ]
+            },
+            "id": 100
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 101,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>пн-чт 10:00–22:00; пт-вс 10:00–23:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, Кальварийская улица, 24</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.52816,
+                    53.908416
+                ]
+            },
+            "id": 101
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 102,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, улица Гурского, 56</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.495413,
+                    53.876497
+                ]
+            },
+            "id": 102
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 103,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>пн-чт 08:00–23:00; пт,сб 08:00–00:00; вс 08:00–23:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, площадь Свободы, 17</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.553285,
+                    53.904707
+                ]
+            },
+            "id": 103
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 104,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>пн-чт 08:00–00:00; пт 08:00–02:00; сб 05:00–02:00; вс 05:00–00:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, проспект Дзержинского, 126</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.470895,
+                    53.847363
+                ]
+            },
+            "id": 104
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 105,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минский район, Боровлянский сельсовет, 74</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.624248,
+                    53.963963
+                ]
+            },
+            "id": 105
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 106,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, улица Притыцкого, 19А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.496425,
+                    53.909207
+                ]
+            },
+            "id": 106
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 107,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, улица Тимирязева, 74А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.509789,
+                    53.926961
+                ]
+            },
+            "id": 107
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 108,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, проспект Победителей, 9</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.548963,
+                    53.908361
+                ]
+            },
+            "id": 108
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 109,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, улица Притыцкого, 154</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.435275,
+                    53.907546
+                ]
+            },
+            "id": 109
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 110,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, Каменногорская улица, 3</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.414442,
+                    53.911111
+                ]
+            },
+            "id": 110
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 111,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 02:00–23:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, Национальный аэропорт Минск</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.0343,
+                    53.889253
+                ]
+            },
+            "id": 111
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 112,
+                "name": "<strong>Кинг драйв</strong>",
+                "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, Партизанский проспект, 182</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.698853,
+                    53.849497
+                ]
+            },
+            "id": 112
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 113,
+                "name": "<strong>Burger King авто</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, Каменногорская улица, 3</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.414388,
+                    53.911088
+                ]
+            },
+            "id": 113
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 114,
+                "name": "<strong>Burger King ресторан Бургер БК</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"http://burger-king.by/\">http://burger-king.by/</a>",
+                "street": "<p>Минск, улица Притыцкого, 156</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.43233,
+                    53.90867
+                ]
+            },
+            "id": 114
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 115,
+                "name": "<strong>Кинг Драйв</strong>",
+                "opening_hours": "<p>ежедневно, 09:00–00:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, улица Гурского, 56</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.495303,
+                    53.876583
+                ]
+            },
+            "id": 115
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 116,
                 "name": "<strong>TokiNY</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://tokiny.by/\">https://tokiny.by/</a>",
@@ -719,12 +2087,30 @@
                     53.927421
                 ]
             },
-            "id": 40
+            "id": 116
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 41,
+                "@id": 117,
+                "name": "<strong>TokiNY</strong>",
+                "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
+                "website": "<a href=\"https://tokiny.by/\">https://tokiny.by/</a>",
+                "street": "<p>Минск, проспект Независимости, 47</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.580521,
+                    53.913778
+                ]
+            },
+            "id": 117
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 118,
                 "name": "<strong>TokiNY</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–00:45</p>",
                 "website": "<a href=\"https://tokiny.by/\">https://tokiny.by/</a>",
@@ -737,7 +2123,7 @@
                     53.9071
                 ]
             },
-            "id": 41
+            "id": 118
         }
     ]
 }

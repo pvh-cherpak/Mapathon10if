@@ -66,6 +66,7 @@ map.on('load', () => {
 
 map.on('mouseenter', 'places', () => {
 	map.getCanvas().style.cursor = 'pointer';
+	document.getElementById("sales").innerHTML = '<div id="restNameHead">' + '</div>';
 });
 
 // Change it back to a pointer when it leaves.
@@ -81,7 +82,6 @@ var jsonDataAkcii;
 (async () => {
 	let response = await fetch('./akcii.json');
 	jsonDataAkcii = await response.json();
-	console.log(jsonDataAkcii);
 
 })();
 
@@ -122,15 +122,25 @@ var foodSelect = document.getElementById("select1")
 var mode = 0;
 
 function switchMode() {
+	const layerTd = 'restarans';
+
+	const savedSource = map.getSource("restarans_sourse").serialize();
+	const savedLayer = map.getLayer(layerTd);
+
 	mode = 1 - mode
-	//if(mode){ 
-	//	map.setStyle('mapbox://styles/mapbox/dark-v11'),
-	//	document.ui.className = 'dark-theme';
-	//}
-	//else{
-	//	map.setStyle('mapbox://styles/mapbox/streets-v12'),
-	//	document.ui.className = 'light-theme';
-	//} 
+	if(mode){ 
+		map.setStyle('mapbox://styles/mapbox/dark-v11'),
+		ui.className = 'dark-theme';
+	}
+	else{
+		map.setStyle('mapbox://styles/mapbox/streets-v12'),
+		ui.className = 'light-theme';
+	} 
+
+	map.on('style.load', () => {
+		map.addSource("restarans_sourse", savedSource);
+		map.addLayer(savedLayer) ;
+	});
 }
 
 function visyal_promotion(f) {
