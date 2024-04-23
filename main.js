@@ -153,5 +153,5 @@ function switchMode(){
 	console.log(mode)
 	mode = 1-mode
 	if(mode) map.setStyle('mapbox://styles/mapbox/dark-v11');
-	else map.setStyle('mapbox://styles/mapbox/streets-v11');
+	else map.setStyle('mapbox://styles/mapathon2024-team6/clvawxc9y00tk01qugagse3xb');
 }
