@@ -27,7 +27,7 @@ map.on('load', () => {
 		'id': 'restarans',
 		'visibility': 'none',
 		'type': 'circle',
-		'source': 'restarans',
+		'source': 'restarans_sourse',
 		'paint': {
 			'circle-color': '#4264fb',
 			'circle-radius': 6,
@@ -90,17 +90,23 @@ function select(selector) {
 	map.setFilter('restarans', buildFilter(Filterbytype(jsonDataAkcii, eat)));
 }
 
-
-
 var ui = document.getElementById("ui")
 var foodSelect = document.getElementById("select1")
 var mode = 0;
 
-function switchMode() {
+function switchMode(){
+	mode = 1-mode
+	//if(mode){ 
+	//	map.setStyle('mapbox://styles/mapbox/dark-v11'),
+	//	document.ui.className = 'dark-theme';
+	//}
+	//else{
+	//	map.setStyle('mapbox://styles/mapbox/streets-v12'),
+	//	document.ui.className = 'light-theme';
+	//} 
+}
 
-	mode = 1 - mode
-	if (mode) map.setStyle('mapbox://styles/mapbox/dark-v11');
-
-	else map.setStyle('mapbox://styles/mapbox/streets-v12');
-
+function visyal_promotion(f){
+	var d = document.getElementById("sales")
+	d.innerHTML = '<div id="restNameHead">Ресторан ' + f[0].id + '</div>'
 }

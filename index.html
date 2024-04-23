@@ -17,6 +17,7 @@
 		body {
 			margin: 0;
 			padding: 0;
+			transition: background-color 0.3s ease;
 		}
 
 		#map {
@@ -137,12 +138,16 @@ input:checked + .slider:before {
 			<option value="суши">Суши</option>
 			<option value="шаурма">Шаурма</option>
 		</select>
+		<div class="line"></div>
+		<div id="sales"></div>
 	</div>
 	<div id="modeDiv">
 		<span class="emoji">☀︎</span>
 		<label id="nightMode" class="switch">
   			<input type="checkbox" onchange="switchMode()">
-  			<span class="slider round"></span>
+  			<span class="slider round">
+				
+			</span>
 		</label>
 		<span class="emoji">☽</span>
 	</div>
