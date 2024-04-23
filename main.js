@@ -41,12 +41,6 @@ map.on('load', () => {
 	});
 });
 
-
-function visyal_promotion(name_restaran) {
-
-}
-
-
 function buildFilter(arr) {
 	var filter = ['in', "name"];
 
@@ -109,6 +103,7 @@ function switchMode(){
 }
 
 function visyal_promotion(f){
+	console.log(f)
 	var d = document.getElementById("sales")
 	d.innerHTML = '<div id="restNameHead">Ресторан ' + f[0].id + '</div>'
 }
