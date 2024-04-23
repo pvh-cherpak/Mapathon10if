@@ -143,6 +143,7 @@ function switchMode() {
 
 function visyal_promotion(f) {
 	var d = document.getElementById("sales");
+	document.getElementById("buttons1").style.display = ""
 	var mon = -1;
 	for (var i = 0; i<jsonDataAkcii.promotion.length; i++)
 		if (jsonDataAkcii.promotion[i].adr_work.find(function(a, b,c){return a==f[0].id;}) != undefined){
@@ -152,3 +153,5 @@ function visyal_promotion(f) {
 			}
 		}
 }
+
+document.getElementById("buttons1").style.display = "None"
