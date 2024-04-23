@@ -128,9 +128,9 @@ function switchMode() {
 		ui.style.background = '#404040';
 		ui.style.color = 'white';
 		ui.style.transition = '0.5s';
-		emoji.style.color = 'white';
 
-		select1.style.background = 'black';
+		select1.style.background = '#505050';
+		select1.style.color = '#FFFFFF';
 	}
 	else{
 		map.setStyle('mapbox://styles/mapbox/streets-v12'),
@@ -138,6 +138,8 @@ function switchMode() {
 		ui.style.color = 'black';
 		ui.style.transition = '0.5s';
 
+		select1.style.background = '#FFFFFF';
+		select1.style.color = 'black';
 	} 
 }
 
