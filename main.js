@@ -96,6 +96,7 @@ function select(selector) {
 
 var ui = document.getElementById("ui")
 var foodSelect = document.getElementById("select1")
+var mode = 0;
 
 function switchMode(){
 	mode = 1-mode
