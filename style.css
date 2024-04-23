@@ -1,16 +1,25 @@
-body {
+#ui {
     font-family: Arial, sans-serif;
-    transition: background-color 0.3s ease;
+    background: #FFFFFF;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    transform: translate(0%, 0%);
+    width: 270px;
+    height: 100%;
+    text-align: center;
+    overflow: auto;   
+    transition: background-color 0.3s ease; 
 }
 
 /* Стили для светлой темы */
-body.light-theme {
+#ui.light-theme {
     background-color: #ffffff;
     color: #000000;
 }
 
 /* Стили для тёмной темы */
-body.dark-theme {
+#ui.dark-theme {
     background-color: #121212;
     color: #ffffff;
 }

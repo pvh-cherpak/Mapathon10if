@@ -17,6 +17,7 @@
 		body {
 			margin: 0;
 			padding: 0;
+			transition: background-color 0.3s ease;
 		}
 
 		#map {
@@ -123,6 +124,14 @@ input:checked + .slider:before {
 	top: 99%;
 	transform: translate(-100%, -100%);
 }
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+.dark-theme {
+    background-color: #000000;
+    color: #ffffff;
+}
 	</style>
 </head>
 
@@ -142,7 +151,9 @@ input:checked + .slider:before {
 		<span class="emoji">☀︎</span>
 		<label id="nightMode" class="switch">
   			<input type="checkbox" onchange="switchMode()">
-  			<span class="slider round"></span>
+  			<span class="slider round">
+				
+			</span>
 		</label>
 		<span class="emoji">☽</span>
 	</div>
