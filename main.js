@@ -35,20 +35,55 @@ map.on('load', () => {
 			'circle-stroke-color': '#ffffff'
 		}
 	});
+
 	map.on('click', 'restarans', (e) => {
 		console.log(e.features.properties);
 		visyal_promotion(e.features);
+		// Copy coordinates array.
+		const coordinates = e.features[0].geometry.coordinates.slice();
+		const descriptionName = e.features[0].properties.name;
+		const descriptionOpening_hours = e.features[0].properties.opening_hours;
+		const descriptionStreet = e.features[0].properties.street;
+		const descriptionWebsite = e.features[0].properties.website;
+
+		// Ensure that if the map is zoomed out such that multiple
+		// copies of the feature are visible, the popup appears
+		// over the copy being pointed to.
+		while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+			coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+		}
+
+		new mapboxgl.Popup()
+			.setLngLat(coordinates)
+			.setHTML(descriptionName + descriptionOpening_hours + descriptionStreet + descriptionWebsite)
+			.addTo(map);
 	});
 });
 
+map.on('mouseenter', 'places', () => {
+	map.getCanvas().style.cursor = 'pointer';
+});
 
-function visyal_promotion(name_restaran) {
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'places', () => {
+	map.getCanvas().style.cursor = '';
+});
 
-}
+
+
+
+var jsonDataAkcii;
+
+(async () => {
+	let response = await fetch('./akcii.json');
+	jsonDataAkcii = await response.json();
+	console.log(jsonDataAkcii);
+
+})();
 
 
 function buildFilter(arr) {
-	var filter = ['in', "name"];
+	var filter = ['in', "@id"];
 
 	if (arr.length === 0) {
 		return filter;
@@ -61,27 +96,14 @@ function buildFilter(arr) {
 	return filter;
 }
 
-var jsonDataAkcii = {
-	"data": 22,
-	"promotion": [
-		{
-			"name_of_restaurant": "Додо Пицца",
-			"description": "купон 2099",
-			"type": "пицца",
-		}
-	]
-};
-
-
 function Filterbytype(jsonDataAkcii, filter) {
 	var mass = [];
 	for (var i = 0; i < jsonDataAkcii.promotion.length; i += 1) {
 		if (jsonDataAkcii.promotion[i].type == filter) {
-			console.log(jsonDataAkcii.promotion[i].name_of_restaurant);
-			mass.push(jsonDataAkcii.promotion[i].name_of_restaurant);
+			for (var j = 0; j<jsonDataAkcii.promotion[i].adr_work.length; j++)
+			mass.push(jsonDataAkcii.promotion[i].adr_work[j]);
 		}
 	}
-
 	return mass;
 }
 
@@ -90,12 +112,13 @@ function select(selector) {
 	map.setFilter('restarans', buildFilter(Filterbytype(jsonDataAkcii, eat)));
 }
 
+
 var ui = document.getElementById("ui")
 var foodSelect = document.getElementById("select1")
 var mode = 0;
 
-function switchMode(){
-	mode = 1-mode
+function switchMode() {
+	mode = 1 - mode
 	//if(mode){ 
 	//	map.setStyle('mapbox://styles/mapbox/dark-v11'),
 	//	document.ui.className = 'dark-theme';
@@ -106,7 +129,8 @@ function switchMode(){
 	//} 
 }
 
-function visyal_promotion(f){
-	var d = document.getElementById("sales")
+function visyal_promotion(f) {
+	var d = document.getElementById("sales");
+	jsonDataAkcii
 	d.innerHTML = '<div id="restNameHead">Ресторан ' + f[0].id + '</div>'
 }
