@@ -1,7 +1,4 @@
 var akcii;
-var mode = 0
-
-
 fetch('akcii.json')
 	.then(response => {
 		if (!response.ok) {
@@ -40,11 +37,10 @@ map.on('load', () => {
 		'data': './restaurants.geojson'
 	});
 	map.addLayer({
-		'id': 'fastfood',
+		'id': 'restarans',
 		'visibility': 'none',
 		'type': 'circle',
 		'source': 'places',
-		filter: ["==", ["get", "type"], "фастфуд"],
 		'paint': {
 			'circle-color': '#4264fb',
 			'circle-radius': 6,
@@ -52,106 +48,49 @@ map.on('load', () => {
 			'circle-stroke-color': '#ffffff'
 		}
 	});
-	map.addLayer({
-		'id': 'pizza',
-		'visibility': 'none',
-		'type': 'circle',
-		'source': 'places',
-		filter: ["==", ["get", "type"], "пицца"],
-		'paint': {
-			'circle-color': '#4264fb',
-			'circle-radius': 6,
-			'circle-stroke-width': 2,
-			'circle-stroke-color': '#ffffff'
-		}
+	map.on('click', 'restarans', (e) => {
+		visyal_promotion(e.features);
 	});
-	map.addLayer({
-		'id': 'sushi',
-		'visibility': 'none',
-		'type': 'circle',
-		'source': 'places',
-		filter: ["==", ["get", "type"], "суши"],
-		'paint': {
-			'circle-color': '#4264fb',
-			'circle-radius': 6,
-			'circle-stroke-width': 2,
-			'circle-stroke-color': '#ffffff'
-		}
-	});
-	map.addLayer({
-		'id': 'shaurma',
-		'visibility': 'none',
-		'type': 'circle',
-		'source': 'places',
-		filter: ["==", ["get", "type"], "суши"],
-		'paint': {
-			'circle-color': '#4264fb',
-			'circle-radius': 6,
-			'circle-stroke-width': 2,
-			'circle-stroke-color': '#ffffff'
-		}
-	});
-	map.on('click', 'places', (e) => {
-		console.log(e.features);
-	});
-
 });
 
 
+function visyal_promotion (name_restaran){
+	
+}
+
+
+function buildFilter(arr) {
+	var filter = ['in', "name"];
+  
+	if (arr.length === 0) {
+	   return filter;
+	}
+	
+	for(var i = 0; i < arr.length; i += 1) {
+	  filter.push(arr[i]);
+	}
+	
+	return filter;
+  }
+  
+  
 
 function select(sel) {
 	var eat = sel.value;
 	console.log(eat);
 	switch (eat){
 		case "фастфуд": 
-			map.setLayoutProperty("sushi", 'visibility', 'none');
-			map.setLayoutProperty("pizza", 'visibility', 'none');
-			map.setLayoutProperty("fastfood", 'visibility', 'visible');
-			map.setLayoutProperty('shaurma', 'visibility', 'none');
+			map.setFilter('restarans', buildFilter(['value2', 'value3']));
 			break;
 		case "пицца": 
-			map.setLayoutProperty("sushi", 'visibility', 'none');
-			map.setLayoutProperty("pizza", 'visibility', 'visible');
-			map.setLayoutProperty("fastfood", 'visibility', 'none');
-			map.setLayoutProperty("shaurma", 'visibility', 'none');
+			map.setFilter('restarans', buildFilter(['value2', 'value3']));
 			break;
 		case "суши": 
-			map.setLayoutProperty("sushi", 'visibility', 'visible');
-			map.setLayoutProperty("pizza", 'visibility', 'none');
-			map.setLayoutProperty("fastfood", 'visibility', 'none');
-			map.setLayoutProperty("shaurma", 'visibility', 'none');
+			map.setFilter('restarans', buildFilter(['value2', 'value3']));
 			break;
 		case "шаурма": 
-			map.setLayoutProperty("sushi", 'visibility', 'none');
-			map.setLayoutProperty("pizza", 'visibility', 'none');
-			map.setLayoutProperty("fastfood", 'visibility', 'none');
-			map.setLayoutProperty("shaurma", 'visibility', 'visible');
+			map.setFilter('restarans', buildFilter(['value2', 'value3']));
 			break;
 	}
 }
 
-///
-	
-//time of a day
-const hour = parseInt(event.target.value);  
-// update the map  
-filterHour = ['==', ['number', ['get', 'Hour']], hour];  
-map.setFilter('collisions', ['all', filterHour, filterDay]);  
-
-// converting 0-23 hour to AMPM format  
-const ampm = hour >= 12 ? 'PM' : 'AM';  
-const hour12 = hour % 12 ? hour % 12 : 12;  
-
-// update text in the UI  
-//document.getElementById('active-hour').innerText = hour12 + ampm;
-///
-
-var ui = document.getElementById("ui")
-var foodSelect = document.getElementById("select1")
-
-function switchMode(){
-	console.log(mode)
-	mode = 1-mode
-	if(mode) map.setStyle('mapbox://styles/mapbox/dark-v11');
-	else map.setStyle('mapbox://styles/mapbox/streets-v11');
-}
