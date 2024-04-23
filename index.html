@@ -8,6 +8,12 @@
 	<link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
 	<script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
 	<style>
+		@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+		*{
+			font-family: "IBM Plex Sans", sans-serif;
+  			font-weight: 400;
+  			font-style: normal;
+		}
 		body {
 			margin: 0;
 			padding: 0;
@@ -29,6 +35,7 @@
 			width: 270px;
 			height: 100%;
 			text-align: center;
+			overflow: auto;
 		}
 
 		#type {
@@ -36,8 +43,18 @@
 			position: fixed;
 		}
 
-		select {
-			margin-left: 35px;
+		#select1 {
+			left: 100%;
+			transform: translate(50%, 0%);
+			font-size: 20px;
+		}
+		#type {
+			font-size: 20px;
+		}
+
+		#head{
+			font-size: 25px;
+			background: #AAAAAA;
 		}
 	</style>
 </head>
@@ -62,17 +79,17 @@
 	
 	<div id="map"></div>
 	<div id="ui">
-		<h4>Программа "Голодный студент"</h4>
+		<h4 id="head">Программа "Голодный студент"</h4>
 		<span id="type">Тип еды</span>
-		<select>
-			<option value="">Кофе</option>
-			<option value="">Слойки с малиной</option>
-			<option value="">option3</option>
-			<option value="">option3</option>
+		<select id="select1">
+			<option value="">Фаст-фуд</option>
+			<option value="">Пицца</option>
+			<option value="">Суши</option>
+			<option value="">Шаурма</option>
 		</select>
+
 	</div>
-	<script src="main.js">
-	</script>
+	<script src="main.js"></script>
 
 </body>
 
