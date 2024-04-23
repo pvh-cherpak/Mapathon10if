@@ -84,10 +84,12 @@ map.on('mouseleave', 'places', () => {
 
 
 var jsonDataAkcii;
+var jsonDataAkcii_is_load = false;
 
 (async () => {
 	let response = await fetch('./akcii.json');
 	jsonDataAkcii = await response.json();
+	jsonDataAkcii_is_load = true ;
 })();
 
 
@@ -119,8 +121,8 @@ function Filterbytype(jsonDataAkcii, filter) {
 function select(selector) {
 	var eat = selector.value;
 	if (eat=="всё"){
-		
-		map.setFilter('restarans', null);
+		map.setFilter('restarans', buildFilter(
+			[...Filterbytype(jsonDataAkcii, "фастфуд"), ...Filterbytype(jsonDataAkcii, "пицца"), ...Filterbytype(jsonDataAkcii, "суши")]));
 	}
 	else{
 	popup.remove();
@@ -130,6 +132,8 @@ function select(selector) {
 	map.setFilter('restarans', buildFilter(Filterbytype(jsonDataAkcii, eat)));
 	}
 }
+
+
 
 
 var ui = document.getElementById("ui")
@@ -158,14 +162,14 @@ function switchMode(slider) {
 	} 
 }
 
-switchMode(document.getElementById("slider_nith_day"));
+
 
 function count_promotion_pages(f){
-	var mon = 0;
-	var proms = [];
+	var mon = -1;
 	for (var i = 0; i<jsonDataAkcii.promotion.length; i++)
-		if (jsonDataAkcii.promotion[i].adr_work.find(function(a, b,c){return a==f[0].id;}) != undefined)
+		if (jsonDataAkcii.promotion[i].adr_work.find(function(a, b,c){return a==f[0].id;}) != undefined){
 			mon++;
+		}
 	return mon;
 }
 
@@ -200,9 +204,26 @@ function right(){
 	}
 }
 
-document.getElementById("buttons1").style.display = "None";
+
 
 map.on('click', (event) => {
 	document.getElementById("buttons1").style.display = "None";
 	document.getElementById("sales").innerHTML = '<div>' +"Нажмите на ресторан, чтобы увидеть действующие акции и предложения"+ '</div>';
 });
+
+switchMode(document.getElementById("slider_nith_day"));
+document.getElementById("buttons1").style.display = "None";
+
+
+var interval = setInterval(function () {
+	if (jsonDataAkcii_is_load){
+		map.on('load', () => {
+			console.log("акции загружены");
+			select (document.getElementById("select1"));
+			clearInterval(interval);
+		});
+	}
+	else
+		console.log("акции не ещё не загружены");
+},100);
+	
