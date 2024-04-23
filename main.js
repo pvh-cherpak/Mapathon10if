@@ -114,19 +114,30 @@ function select(selector) {
 
 
 var ui = document.getElementById("ui")
+var select1 = document.getElementById("select1")
 var foodSelect = document.getElementById("select1")
 var mode = 0;
 
 function switchMode() {
 	mode = 1 - mode
-	//if(mode){ 
-	//	map.setStyle('mapbox://styles/mapbox/dark-v11'),
-	//	document.ui.className = 'dark-theme';
-	//}
-	//else{
-	//	map.setStyle('mapbox://styles/mapbox/streets-v12'),
-	//	document.ui.className = 'light-theme';
-	//} 
+	if(mode){ 
+		map.setStyle('mapbox://styles/mapbox/dark-v11'),
+		ui.style.background = '#404040';
+		ui.style.color = 'white';
+		ui.style.transition = '0.5s';
+
+		select1.style.background = '#505050';
+		select1.style.color = '#FFFFFF';
+	}
+	else{
+		map.setStyle('mapbox://styles/mapbox/streets-v12'),
+		ui.style.background = 'white';
+		ui.style.color = 'black';
+		ui.style.transition = '0.5s';
+
+		select1.style.background = '#FFFFFF';
+		select1.style.color = 'black';
+	} 
 }
 
 function visyal_promotion(f) {

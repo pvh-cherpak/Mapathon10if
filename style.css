@@ -1,3 +1,5 @@
+
+
 #ui {
     font-family: Arial, sans-serif;
     background: #FFFFFF;
@@ -10,16 +12,4 @@
     text-align: center;
     overflow: auto;   
     transition: background-color 0.3s ease; 
-}
-
-/* Стили для светлой темы */
-#ui.light-theme {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-/* Стили для тёмной темы */
-#ui.dark-theme {
-    background-color: #121212;
-    color: #ffffff;
 }
