@@ -92,7 +92,6 @@ map.on('load', () => {
 		}
 	});
 	map.on('click', 'places', (e) => {
-		console.log(e);
 		console.log(e.features);
 	});
 
@@ -151,7 +150,6 @@ var ui = document.getElementById("ui")
 var foodSelect = document.getElementById("select1")
 
 function switchMode(){
-	mode = Number(mode)
 	mode = 1-mode
 	if(mode) map.setStyle('mapbox://styles/mapbox/dark-v12');
 	else map.setStyle('mapbox://styles/mapbox/streets-v12');
