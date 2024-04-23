@@ -126,6 +126,7 @@ function select(selector) {
 
 
 var ui = document.getElementById("ui")
+var select1 = document.getElementById("select1")
 var foodSelect = document.getElementById("select1")
 
 function switchMode(slider) {
