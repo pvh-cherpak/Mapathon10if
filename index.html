@@ -120,9 +120,6 @@ input:checked + .slider:before {
 }
 #modeDiv{
 	position: fixed;
-	left: 250px;
-	top: 99%;
-	transform: translate(-100%, -100%);
 }
 #restNameHead{
 	font-size: 30px;
@@ -140,6 +137,14 @@ input:checked + .slider:before {
 <body>
 	<div id="map"></div>
 	<div id="ui">
+		<div id="modeDiv">
+			<span class="emoji">☀︎</span>
+			<label id="nightMode" class="switch">
+  				<input type="checkbox" onchange="switchMode()">
+  				<span class="slider round"></span>
+			</label>
+			<span class="emoji">☽</span>
+		</div>
 		<h4 id="head">Программа<br>"Голодный студент"</h4>
 		<span id="type">Тип еды</span>
 		<select id="select1", onchange="select(this)">
@@ -150,16 +155,6 @@ input:checked + .slider:before {
 		</select>
 		<div class="line"></div>
 		<div id="sales"></div>
-	</div>
-	<div id="modeDiv">
-		<span class="emoji">☀︎</span>
-		<label id="nightMode" class="switch">
-  			<input type="checkbox" onchange="switchMode()">
-  			<span class="slider round">
-				
-			</span>
-		</label>
-		<span class="emoji">☽</span>
 	</div>
 	<script src="main.js"></script>
 	
