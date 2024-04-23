@@ -148,7 +148,7 @@ input:checked + .slider:before {
 		<div id="modeDiv">
 			<span class="emoji">☀︎</span>
 			<label id="nightMode" class="switch">
-  				<input type="checkbox" onchange="switchMode()">
+  				<input id="slider_nith_day" type="checkbox" onchange="switchMode(this)" >
   				<span class="slider round"></span>
 			</label>
 			<span class="emoji">☽</span>
@@ -159,7 +159,6 @@ input:checked + .slider:before {
 			<option value="фастфуд">Фаст-фуд</option>
 			<option value="пицца">Пицца</option>
 			<option value="суши">Суши</option>
-			<option value="шаурма">Шаурма</option>
 		</select>
 		<div class="line"></div>
 		<div id="buttons1">

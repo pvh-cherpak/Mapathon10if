@@ -8,7 +8,10 @@ const map = new mapboxgl.Map({
 
 var page_promoute = 0;
 var promoute;
-var currentPage = 0
+var currentPage = 0;
+var max_page_prompte = 0;
+
+var popup = new mapboxgl.Popup();
 
 map.on('load', () => {
 	// Add geolocate control to the map.
@@ -43,7 +46,10 @@ map.on('load', () => {
 	map.on('click', 'restarans', (e) => {
 		page_promoute = 0;
 		promoute = e.features;
+		
+		max_page_prompte = count_promotion_pages (promoute);
 		visyal_promotion(promoute);
+		document.getElementById("salesFound").innerHTML = "Акциия: " + (page_promoute + 1) + " из " + (max_page_prompte + 1);
 		// Copy coordinates array.
 		const coordinates = e.features[0].geometry.coordinates.slice();
 		const descriptionName = e.features[0].properties.name;
@@ -58,7 +64,7 @@ map.on('load', () => {
 			coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
 		}
 
-		new mapboxgl.Popup()
+		popup = new mapboxgl.Popup()
 			.setLngLat(coordinates)
 			.setHTML(descriptionName + descriptionOpening_hours + descriptionStreet + descriptionWebsite)
 			.addTo(map);
@@ -82,8 +88,6 @@ var jsonDataAkcii;
 (async () => {
 	let response = await fetch('./akcii.json');
 	jsonDataAkcii = await response.json();
-	console.log(jsonDataAkcii);
-
 })();
 
 
@@ -113,6 +117,9 @@ function Filterbytype(jsonDataAkcii, filter) {
 }
 
 function select(selector) {
+	popup.remove();
+	document.getElementById("buttons1").style.display = "None";
+	document.getElementById("sales").innerHTML = '<div>' +"Нажмите на ресторан, чтобы увидеть действующие акции и предложения"+ '</div>';
 	var eat = selector.value;
 	map.setFilter('restarans', buildFilter(Filterbytype(jsonDataAkcii, eat)));
 }
@@ -120,11 +127,10 @@ function select(selector) {
 
 var ui = document.getElementById("ui")
 var foodSelect = document.getElementById("select1")
-var mode = 0;
 
-function switchMode() {
-	currentPage = 0
-	mode = 1 - mode
+function switchMode(slider) {
+	currentPage = 0;
+	var mode = slider.checked;
 	if(mode){ 
 		map.setStyle('mapbox://styles/mapbox/dark-v11'),
 		ui.style.background = '#404040';
@@ -145,27 +151,50 @@ function switchMode() {
 	} 
 }
 
+switchMode(document.getElementById("slider_nith_day"));
+
+function count_promotion_pages(f){
+	var mon = 0;
+	var proms = [];
+	for (var i = 0; i<jsonDataAkcii.promotion.length; i++)
+		if (jsonDataAkcii.promotion[i].adr_work.find(function(a, b,c){return a==f[0].id;}) != undefined)
+			mon++;
+	return mon;
+}
+
 function visyal_promotion(f) {
 	var d = document.getElementById("sales");
-	document.getElementById("buttons1").style.display = ""
+	document.getElementById("buttons1").style.display = "";
 	var mon = -1;
-	var proms = []
+
 	for (var i = 0; i<jsonDataAkcii.promotion.length; i++){
 		if (jsonDataAkcii.promotion[i].adr_work.find(function(a, b,c){return a==f[0].id;}) != undefined){
 			mon++;
 			if (mon==page_promoute){
-				proms.push('<div id="restNameHead">' + jsonDataAkcii.promotion[i].description + '</div>');
+				d.innerHTML = '<div id="restNameHead">' + jsonDataAkcii.promotion[i].description + '</div>';
 			}
 		}
 	}	
-	d.innerHTML = proms[currentPage]
 }
 
 function left(){
-	currentPage--
+	if (page_promoute>0){
+	page_promoute--;
+	document.getElementById("salesFound").innerHTML = "Акциия: " + (page_promoute + 1) + " из " + (max_page_prompte + 1);
+	visyal_promotion(promoute);
+	}
 }
 function right(){
-	currentPage++
+	if (page_promoute<max_page_prompte){
+	page_promoute++;
+	document.getElementById("salesFound").innerHTML = "Акциия: " + (page_promoute + 1) + " из " + (max_page_prompte + 1);
+	visyal_promotion(promoute);
+	}
 }
 
-document.getElementById("buttons1").style.display = "None"
+document.getElementById("buttons1").style.display = "None";
+
+map.on('click', (event) => {
+	document.getElementById("buttons1").style.display = "None";
+	document.getElementById("sales").innerHTML = '<div>' +"Нажмите на ресторан, чтобы увидеть действующие акции и предложения"+ '</div>';
+});
