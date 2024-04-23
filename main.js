@@ -66,7 +66,6 @@ map.on('load', () => {
 
 map.on('mouseenter', 'places', () => {
 	map.getCanvas().style.cursor = 'pointer';
-	document.getElementById("sales").innerHTML = '<div id="restNameHead">' + '</div>';
 });
 
 // Change it back to a pointer when it leaves.
@@ -82,6 +81,7 @@ var jsonDataAkcii;
 (async () => {
 	let response = await fetch('./akcii.json');
 	jsonDataAkcii = await response.json();
+	console.log(jsonDataAkcii);
 
 })();
 
@@ -122,29 +122,30 @@ var foodSelect = document.getElementById("select1")
 var mode = 0;
 
 function switchMode() {
-	const layerTd = 'restarans';
-
-	const savedSource = map.getSource("restarans_sourse").serialize();
-	const savedLayer = map.getLayer(layerTd);
-
 	mode = 1 - mode
 	if(mode){ 
 		map.setStyle('mapbox://styles/mapbox/dark-v11'),
-		ui.className = 'dark-theme';
+		ui.style.background = '#404040';
+		ui.style.color = 'white';
+		ui.style.transition = '0.5s';
+
+		select1.style.background = '#505050';
+		select1.style.color = '#FFFFFF';
 	}
 	else{
 		map.setStyle('mapbox://styles/mapbox/streets-v12'),
-		ui.className = 'light-theme';
-	} 
+		ui.style.background = 'white';
+		ui.style.color = 'black';
+		ui.style.transition = '0.5s';
 
-	map.on('style.load', () => {
-		map.addSource("restarans_sourse", savedSource);
-		map.addLayer(savedLayer) ;
-	});
+		select1.style.background = '#FFFFFF';
+		select1.style.color = 'black';
+	} 
 }
 
 function visyal_promotion(f) {
 	var d = document.getElementById("sales");
+	document.getElementById("buttons1").style.display = ""
 	var mon = -1;
 	for (var i = 0; i<jsonDataAkcii.promotion.length; i++)
 		if (jsonDataAkcii.promotion[i].adr_work.find(function(a, b,c){return a==f[0].id;}) != undefined){
@@ -154,3 +155,5 @@ function visyal_promotion(f) {
 			}
 		}
 }
+
+document.getElementById("buttons1").style.display = "None"
