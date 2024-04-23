@@ -157,8 +157,7 @@ function visyal_promotion(f) {
 				proms.push('<div id="restNameHead">' + jsonDataAkcii.promotion[i].description + '</div>');
 			}
 		}
-	}
-		
+	}	
 	d.innerHTML = proms[currentPage]
 }
 
@@ -168,4 +167,5 @@ function left(){
 function right(){
 	currentPage++
 }
+
 document.getElementById("buttons1").style.display = "None"
