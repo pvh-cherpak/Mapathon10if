@@ -6,6 +6,9 @@ const map = new mapboxgl.Map({
 	zoom: 9, // starting zoom
 });
 
+var page_promoute = 0;
+var promoute;
+
 map.on('load', () => {
 	// Add geolocate control to the map.
 	map.addControl(
@@ -37,8 +40,9 @@ map.on('load', () => {
 	});
 
 	map.on('click', 'restarans', (e) => {
-		console.log(e.features.properties);
-		visyal_promotion(e.features);
+		page_promoute = 0;
+		promoute = e.features;
+		visyal_promotion(promoute);
 		// Copy coordinates array.
 		const coordinates = e.features[0].geometry.coordinates.slice();
 		const descriptionName = e.features[0].properties.name;
@@ -131,6 +135,12 @@ function switchMode() {
 
 function visyal_promotion(f) {
 	var d = document.getElementById("sales");
-	jsonDataAkcii
-	d.innerHTML = '<div id="restNameHead">Ресторан ' + f[0].id + '</div>'
+	var mon = -1;
+	for (var i = 0; i<jsonDataAkcii.promotion.length; i++)
+		if (jsonDataAkcii.promotion[i].adr_work.find(function(a, b,c){return a==f[0].id;}) != undefined){
+			mon++;
+			if (mon==page_promoute){
+				d.innerHTML = '<div id="restNameHead">' + jsonDataAkcii.promotion[i].description + '</div>';
+			}
+		}
 }
