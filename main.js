@@ -91,10 +91,15 @@ map.on('load', () => {
 			'circle-stroke-color': '#ffffff'
 		}
 	});
-	map.on('click', 'places', (e) => {
-		console.log(e.features);
-	});
 
+	map.on('click', (event) => {  
+ 		// If the user clicked on one of your markers, get its information.  
+ 		const features = map.queryRenderedFeatures(event.point, {  
+ 			layers: ['fastfood', 'pizza', 'sushi', 'shaurma'] // replace with your layer name  
+ 		});
+		console.log(features)
+ 	});  
+});
 });
 
 
@@ -138,7 +143,7 @@ var ui = document.getElementById("ui")
 var foodSelect = document.getElementById("select1")
 
 function switchMode(){
-	mode = 1-mode
+	mode = 1-Number(mode)
 	if(mode) map.setStyle('mapbox://styles/mapbox/dark-v11');
 	else map.setStyle('mapbox://styles/mapbox/streets-v12');
 }
