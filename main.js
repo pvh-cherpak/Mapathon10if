@@ -93,6 +93,7 @@ map.on('load', () => {
 	});
 
 	map.on('click', (event) => {  
+		console.log('map clicked')
  		// If the user clicked on one of your markers, get its information.  
  		const features = map.queryRenderedFeatures(event.point, {  
  			layers: ['fastfood', 'pizza', 'sushi', 'shaurma'] // replace with your layer name  
