@@ -117,11 +117,18 @@ function Filterbytype(jsonDataAkcii, filter) {
 }
 
 function select(selector) {
+	var eat = selector.value;
+	if (eat=="всё"){
+		
+		map.setFilter('restarans', null);
+	}
+	else{
 	popup.remove();
 	document.getElementById("buttons1").style.display = "None";
 	document.getElementById("sales").innerHTML = '<div>' +"Нажмите на ресторан, чтобы увидеть действующие акции и предложения"+ '</div>';
-	var eat = selector.value;
+	
 	map.setFilter('restarans', buildFilter(Filterbytype(jsonDataAkcii, eat)));
+	}
 }
 
 
