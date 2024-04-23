@@ -4,6 +4,7 @@
         {
             "name_of_restaurant":"KFC",
             "description":"купон 2099",
+            "type" : "фастфуд",
             "adr_not_work":[""]
         }
     ]
