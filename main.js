@@ -63,6 +63,12 @@ function checkForm(forma) {
 	return true;
 }
 
+var ui = document.getElementById("ui")
+var foodSelect = document.getElementById("select1")
 
+//for(var i = 0; i < 100; i++)
+	//ui.innerHTML += "<br>--------"
 
-
+foodSelect.onchange = function(){
+	alert(foodSelect.options[foodSelect.selectedIndex].text)
+}
