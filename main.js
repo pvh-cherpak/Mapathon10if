@@ -37,6 +37,7 @@ map.on('load', () => {
 		}
 	});
 	map.on('click', 'restarans', (e) => {
+		console.log(e.features[0].id);
 		visyal_promotion(e.features);
 	});
 });
@@ -67,7 +68,7 @@ var jsonDataAkcii = {
         {
             "name_of_restaurant":"Додо Пицца",
             "description":"купон 2099",
-            "type" : "фастфуд",
+            "type" : "пицца",
         }
     ]
 };
@@ -87,8 +88,6 @@ function Filterbytype(jsonDataAkcii, filter) {
 
 function select(selector) {
 	var eat = selector.value;
-	console.log(eat);
-
 	map.setFilter('restarans', buildFilter(Filterbytype(jsonDataAkcii, eat)));
 }
 
