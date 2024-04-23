@@ -130,7 +130,15 @@ input:checked + .slider:before {
 	background-color: gray;
 	opacity: 0.5;
 	margin-top: 10px;
-}		
+}
+#salesFound{
+	font-weight: bold;
+	left: 50%;
+	font-size: 25px;
+}
+.b1{
+	transform: translate(0%, -20%);
+}
 	</style>
 </head>
 
@@ -154,6 +162,11 @@ input:checked + .slider:before {
 			<option value="шаурма">Шаурма</option>
 		</select>
 		<div class="line"></div>
+		<div id="buttons1">
+		<button onclick="left()" class="b1"><</button>
+		<span id="salesFound">Найдены акции</span>
+		<button onclick="right()" class="b1">></button>
+		</div>
 		<div id="sales">Нажмите на ресторан, чтобы увидеть действующие акции и предложения</div>
 	</div>
 	<script src="main.js"></script>
