@@ -1,4 +1,5 @@
 var akcii;
+var mode = 0
 
 
 fetch('akcii.json')
@@ -136,12 +137,21 @@ const hour = parseInt(event.target.value);
 // update the map  
 filterHour = ['==', ['number', ['get', 'Hour']], hour];  
 map.setFilter('collisions', ['all', filterHour, filterDay]);  
-	
+
 // converting 0-23 hour to AMPM format  
 const ampm = hour >= 12 ? 'PM' : 'AM';  
 const hour12 = hour % 12 ? hour % 12 : 12;  
-	
-// update text in the UI  
-document.getElementById('active-hour').innerText = hour12 + ampm;
 
+// update text in the UI  
+//document.getElementById('active-hour').innerText = hour12 + ampm;
 ///
+
+var ui = document.getElementById("ui")
+var foodSelect = document.getElementById("select1")
+
+function switchMode(){
+	console.log(mode)
+	mode = 1-mode
+	if(mode) map.setStyle('mapbox://styles/mapbox/dark-v11');
+	else map.setStyle('mapbox://styles/mapbox/streets-v11');
+}
