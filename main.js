@@ -49,7 +49,7 @@ map.on('load', () => {
 		
 		max_page_prompte = count_promotion_pages (promoute);
 		visyal_promotion(promoute);
-		document.getElementById("salesFound").innerHTML = "Акциия: " + (page_promoute + 1) + " из " + (max_page_prompte + 1);
+		document.getElementById("salesFound").innerHTML = "Акция: " + (page_promoute + 1) + " из " + (max_page_prompte + 1);
 		// Copy coordinates array.
 		const coordinates = e.features[0].geometry.coordinates.slice();
 		const descriptionName = e.features[0].properties.name;
@@ -88,8 +88,6 @@ var jsonDataAkcii;
 (async () => {
 	let response = await fetch('./akcii.json');
 	jsonDataAkcii = await response.json();
-	console.log(jsonDataAkcii);
-
 })();
 
 
@@ -173,7 +171,8 @@ function visyal_promotion(f) {
 		if (jsonDataAkcii.promotion[i].adr_work.find(function(a, b,c){return a==f[0].id;}) != undefined){
 			mon++;
 			if (mon==page_promoute){
-				d.innerHTML = '<div id="restNameHead">' + jsonDataAkcii.promotion[i].description + '</div>';
+				d.innerHTML = "<img width=\"250px\" src=" + jsonDataAkcii.promotion[i].picture+">" +
+				'<div id="restNameHead">' + jsonDataAkcii.promotion[i].description + '</div>';
 			}
 		}
 	}	
@@ -182,14 +181,14 @@ function visyal_promotion(f) {
 function left(){
 	if (page_promoute>0){
 	page_promoute--;
-	document.getElementById("salesFound").innerHTML = "Акциия: " + (page_promoute + 1) + " из " + (max_page_prompte + 1);
+	document.getElementById("salesFound").innerHTML = "Акция: " + (page_promoute + 1) + " из " + (max_page_prompte + 1);
 	visyal_promotion(promoute);
 	}
 }
 function right(){
 	if (page_promoute<max_page_prompte){
 	page_promoute++;
-	document.getElementById("salesFound").innerHTML = "Акциия: " + (page_promoute + 1) + " из " + (max_page_prompte + 1);
+	document.getElementById("salesFound").innerHTML = "Акция: " + (page_promoute + 1) + " из " + (max_page_prompte + 1);
 	visyal_promotion(promoute);
 	}
 }
