@@ -100,7 +100,6 @@ map.on('load', () => {
 		console.log(features)
  	});  
 });
-});
 
 
 
