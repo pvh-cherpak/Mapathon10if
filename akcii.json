@@ -1,10 +1,10 @@
 {
     "data": 22,
-    "akc":[
+    "promotion":[
         {
-            "name_of_restaran":"KFC",
-            "opisanye":"купон 2099",
-            "adr_not_work":""
+            "name_of_restaurant":"KFC",
+            "description":"купон 2099",
+            "adr_not_work":[""]
         }
     ]
 }
