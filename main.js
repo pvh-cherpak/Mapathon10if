@@ -107,3 +107,8 @@ function switchMode(){
 		document.ui.className = 'light-theme';
 	} 
 }
+
+function visyal_promotion(f){
+	var d = document.getElementById("sales")
+	d.innerHTML = '<div id="restNameHead">Ресторан ' + f[0].id + '</div>'
+}
