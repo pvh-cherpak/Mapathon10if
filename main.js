@@ -159,6 +159,7 @@ function switchMode(slider) {
 
 		select1.style.background = '#505050';
 		select1.style.color = '#FFFFFF';
+		select1.style.transition = '0.5s';
 
 		header.style.backgroundColor = "#666666"
 	}
@@ -170,7 +171,8 @@ function switchMode(slider) {
 
 		select1.style.background = '#FFFFFF';
 		select1.style.color = 'black';
-
+		select1.style.transition = '0.5s';
+		
 		header.style.backgroundColor = "#AAAAAA"
 	} 
 }
