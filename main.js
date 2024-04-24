@@ -12,7 +12,7 @@ var promoute;
 var currentPage = 0;
 var max_page_prompte = 0;
 
-var popup = new mapboxgl.Popup();
+var popup
 
 function loadMap(){
 	document.getElementById("buttons1").style.display = "None";
