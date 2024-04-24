@@ -160,7 +160,7 @@ function switchMode(slider) {
 		select1.style.background = '#505050';
 		select1.style.color = '#FFFFFF';
 
-		header.style.background = "#666666"
+		header.style.backgroundColor = "#666666"
 	}
 	else{
 		map.setStyle('mapbox://styles/mapbox/streets-v12'),
@@ -171,7 +171,7 @@ function switchMode(slider) {
 		select1.style.background = '#FFFFFF';
 		select1.style.color = 'black';
 
-		header.style.background = "#AAAAAA"
+		header.style.backgroundColor = "#AAAAAA"
 	} 
 }
 
