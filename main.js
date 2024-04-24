@@ -90,8 +90,6 @@ map.on('mouseleave', 'places', () => {
 });
 
 
-
-
 var jsonDataAkcii;
 var jsonDataAkcii_is_load = false;
 
