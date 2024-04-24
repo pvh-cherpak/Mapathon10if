@@ -33,6 +33,7 @@ function loadMap(){
 		}
 	});
 
+
 	map.on('click', 'restarans', (e) => {
 		page_promoute = 0;
 		promoute = e.features;
@@ -243,4 +244,11 @@ var interval = setInterval(function () {
 	else
 		console.log("акции не ещё не загружены");
 },100);
-	
+
+/*
+map.addControl(
+	new MapboxDirections({
+		accessToken: mapboxgl.accessToken
+	}),
+	'top-left'
+);  */
