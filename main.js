@@ -1,3 +1,4 @@
+
 mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYXRob24yMDI0LXRlYW02IiwiYSI6ImNsdmFtNjZnMDE1bDQyanJyeTRjbnZhNHoifQ.QnsGQhCGixoqajiUos7vfg';
 const map = new mapboxgl.Map({
 	container: 'map', // container ID
@@ -144,8 +145,9 @@ function select(selector) {
 
 
 
-var ui = document.getElementById("ui")
-var foodSelect = document.getElementById("select1")
+var ui = document.getElementById("ui");
+var foodSelect = document.getElementById("select1");
+var BoxContent = document.getElementById("mapboxgl-popup-content");
 
 function switchMode(slider) {
 	currentPage = 0;
@@ -161,6 +163,10 @@ function switchMode(slider) {
 		select1.style.color = '#FFFFFF';
 		select1.style.transition = '0.5s';
 
+		BoxContent.style.background = '#505050';
+		BoxContent.style.color = 'white';
+		BoxContent.style.transition = '0.5s';
+
 		header.style.backgroundColor = "#666666"
 	}
 	else{
@@ -172,6 +178,10 @@ function switchMode(slider) {
 		select1.style.background = '#FFFFFF';
 		select1.style.color = 'black';
 		select1.style.transition = '0.5s';
+
+		BoxContent.style.background = 'white';
+		BoxContent.style.color = 'black';
+		BoxContent.style.transition = '0.5s';
 		
 		header.style.backgroundColor = "#AAAAAA"
 	} 
