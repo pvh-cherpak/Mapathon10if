@@ -13,7 +13,7 @@ var max_page_prompte = 0;
 
 var popup = new mapboxgl.Popup();
 
-map.on('load', () => {
+function loadMap(){
 	// Add geolocate control to the map.
 	map.addControl(
 		new mapboxgl.GeolocateControl({
@@ -69,6 +69,14 @@ map.on('load', () => {
 			.setHTML(descriptionName + descriptionOpening_hours + descriptionStreet + descriptionWebsite)
 			.addTo(map);
 	});
+}
+
+map.on('load', () => {
+	loadMap()
+});
+
+map.on('style.load', () => {
+	loadMap()
 });
 
 map.on('mouseenter', 'places', () => {
