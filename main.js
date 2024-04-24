@@ -150,6 +150,7 @@ var foodSelect = document.getElementById("select1")
 function switchMode(slider) {
 	currentPage = 0;
 	var mode = slider.checked;
+	var header = document.getElementById("head")
 	if(mode){ 
 		map.setStyle('mapbox://styles/mapbox/dark-v11'),
 		ui.style.background = '#404040';
@@ -158,6 +159,10 @@ function switchMode(slider) {
 
 		select1.style.background = '#505050';
 		select1.style.color = '#FFFFFF';
+		select1.style.transition = '0.5s';
+
+		header.style.backgroundColor = "#DDDDDD"
+		header.style.transition = '0.5s';
 	}
 	else{
 		map.setStyle('mapbox://styles/mapbox/streets-v12'),
@@ -167,6 +172,10 @@ function switchMode(slider) {
 
 		select1.style.background = '#FFFFFF';
 		select1.style.color = 'black';
+		select1.style.transition = '0.5s';
+
+		header.style.backgroundColor = "#AAAAAA"
+		header.style.transition = '0.5s';
 	} 
 }
 
