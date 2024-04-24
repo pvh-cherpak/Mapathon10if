@@ -161,7 +161,7 @@ function switchMode(slider) {
 		select1.style.color = '#FFFFFF';
 		select1.style.transition = '0.5s';
 
-		header.style.backgroundColor = "#DDDDDD"
+		header.style.background = "#333333"
 		header.style.transition = '0.5s';
 	}
 	else{
@@ -174,7 +174,7 @@ function switchMode(slider) {
 		select1.style.color = 'black';
 		select1.style.transition = '0.5s';
 
-		header.style.backgroundColor = "#AAAAAA"
+		header.style.background = "#AAAAAA"
 		header.style.transition = '0.5s';
 	} 
 }
