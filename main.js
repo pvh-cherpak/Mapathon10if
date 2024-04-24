@@ -16,7 +16,10 @@ var popup
 
 function loadMap(){
 	document.getElementById("buttons1").style.display = "None";
+	try{
 	popup.remove();
+	}
+	catch(e){}
 	// Add geolocate control to the map.
 	map.addSource('restarans_sourse', {
 		'type': 'geojson',
@@ -134,7 +137,10 @@ function select(selector) {
 			[...Filterbytype(jsonDataAkcii, "фастфуд"), ...Filterbytype(jsonDataAkcii, "пицца"), ...Filterbytype(jsonDataAkcii, "суши")]));
 	}
 	else{
+	try{
 	popup.remove();
+	}
+	catch(e){}
 	document.getElementById("buttons1").style.display = "None";
 	document.getElementById("sales").innerHTML = '<div>' +"Нажмите на ресторан, чтобы увидеть действующие акции и предложения"+ '</div>';
 	
