@@ -4,7 +4,7 @@
         {
             "type": "Feature",
             "properties": {
-                "@id": 146,
+                "@id": 1,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -17,12 +17,12 @@
                     53.956375
                 ]
             },
-            "id": 146
+            "id": 1
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 147,
+                "@id": 2,
                 "name": "<strong>Пицца темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -35,12 +35,12 @@
                     53.898959
                 ]
             },
-            "id": 147
+            "id": 2
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 148,
+                "@id": 3,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>пн-чт 08:00–23:00; пт,сб 08:00–02:00; вс 08:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -53,12 +53,12 @@
                     53.925833
                 ]
             },
-            "id": 148
+            "id": 3
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 149,
+                "@id": 4,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -71,12 +71,12 @@
                     53.859122
                 ]
             },
-            "id": 149
+            "id": 4
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 150,
+                "@id": 5,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -89,12 +89,12 @@
                     53.922502
                 ]
             },
-            "id": 150
+            "id": 5
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 151,
+                "@id": 6,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -107,12 +107,12 @@
                     53.87461
                 ]
             },
-            "id": 151
+            "id": 6
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 152,
+                "@id": 7,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -125,12 +125,12 @@
                     53.908412
                 ]
             },
-            "id": 152
+            "id": 7
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 153,
+                "@id": 8,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -143,12 +143,12 @@
                     53.837131
                 ]
             },
-            "id": 153
+            "id": 8
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 154,
+                "@id": 9,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -161,12 +161,12 @@
                     53.933416
                 ]
             },
-            "id": 154
+            "id": 9
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 155,
+                "@id": 10,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -179,12 +179,12 @@
                     53.899087
                 ]
             },
-            "id": 155
+            "id": 10
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 156,
+                "@id": 11,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"http://www.tempo.by/\">http://www.tempo.by/</a>",
@@ -197,12 +197,12 @@
                     53.875212
                 ]
             },
-            "id": 156
+            "id": 11
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 157,
+                "@id": 12,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>пн-чт 10:00–00:00; пт,сб 10:00–01:00; вс 10:00–00:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -215,12 +215,12 @@
                     53.890511
                 ]
             },
-            "id": 157
+            "id": 12
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 158,
+                "@id": 13,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -233,12 +233,12 @@
                     53.853579
                 ]
             },
-            "id": 158
+            "id": 13
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 159,
+                "@id": 14,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -251,12 +251,12 @@
                     53.908366
                 ]
             },
-            "id": 159
+            "id": 14
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 160,
+                "@id": 15,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -269,12 +269,12 @@
                     53.964279
                 ]
             },
-            "id": 160
+            "id": 15
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 161,
+                "@id": 16,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -287,12 +287,12 @@
                     53.938163
                 ]
             },
-            "id": 161
+            "id": 16
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 162,
+                "@id": 17,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -305,12 +305,12 @@
                     53.925985
                 ]
             },
-            "id": 162
+            "id": 17
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 163,
+                "@id": 18,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -323,12 +323,12 @@
                     53.886772
                 ]
             },
-            "id": 163
+            "id": 18
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 164,
+                "@id": 19,
                 "name": "<strong>Пицца Темпо</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://www.pizzatempo.by/\">https://www.pizzatempo.by/</a>",
@@ -341,12 +341,12 @@
                     53.964739
                 ]
             },
-            "id": 164
+            "id": 19
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 165,
+                "@id": 20,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -359,12 +359,12 @@
                     53.874441
                 ]
             },
-            "id": 165
+            "id": 20
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 166,
+                "@id": 21,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -377,12 +377,12 @@
                     53.929312
                 ]
             },
-            "id": 166
+            "id": 21
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 167,
+                "@id": 22,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -395,12 +395,12 @@
                     53.902579
                 ]
             },
-            "id": 167
+            "id": 22
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 168,
+                "@id": 23,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -413,12 +413,12 @@
                     53.921815
                 ]
             },
-            "id": 168
+            "id": 23
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 169,
+                "@id": 24,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -431,12 +431,12 @@
                     53.849441
                 ]
             },
-            "id": 169
+            "id": 24
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 170,
+                "@id": 25,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -449,12 +449,12 @@
                     53.839909
                 ]
             },
-            "id": 170
+            "id": 25
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 171,
+                "@id": 26,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -467,12 +467,12 @@
                     53.928727
                 ]
             },
-            "id": 171
+            "id": 26
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 172,
+                "@id": 27,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -485,12 +485,12 @@
                     53.933487
                 ]
             },
-            "id": 172
+            "id": 27
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 173,
+                "@id": 28,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -503,12 +503,12 @@
                     53.94655
                 ]
             },
-            "id": 173
+            "id": 28
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 174,
+                "@id": 29,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -521,12 +521,12 @@
                     53.908731
                 ]
             },
-            "id": 174
+            "id": 29
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 175,
+                "@id": 30,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -539,12 +539,12 @@
                     53.871071
                 ]
             },
-            "id": 175
+            "id": 30
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 176,
+                "@id": 31,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -557,12 +557,12 @@
                     53.900221
                 ]
             },
-            "id": 176
+            "id": 31
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 177,
+                "@id": 32,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>пн 11:00–22:00; вт-вс 10:00–22:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -575,12 +575,12 @@
                     53.963888
                 ]
             },
-            "id": 177
+            "id": 32
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 178,
+                "@id": 33,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -593,12 +593,12 @@
                     53.87644
                 ]
             },
-            "id": 178
+            "id": 33
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 179,
+                "@id": 34,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -611,12 +611,12 @@
                     53.859523
                 ]
             },
-            "id": 179
+            "id": 34
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 180,
+                "@id": 35,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -629,12 +629,12 @@
                     53.909952
                 ]
             },
-            "id": 180
+            "id": 35
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 181,
+                "@id": 36,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -647,12 +647,12 @@
                     53.847363
                 ]
             },
-            "id": 181
+            "id": 36
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 182,
+                "@id": 37,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -665,12 +665,12 @@
                     53.906211
                 ]
             },
-            "id": 182
+            "id": 37
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 183,
+                "@id": 38,
                 "name": "<strong>Додо Пицца</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://dodopizza.by/\">https://dodopizza.by/</a>",
@@ -683,12 +683,12 @@
                     53.908428
                 ]
             },
-            "id": 183
+            "id": 38
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 184,
+                "@id": 39,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -701,12 +701,12 @@
                     53.883903
                 ]
             },
-            "id": 184
+            "id": 39
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 185,
+                "@id": 40,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -719,12 +719,12 @@
                     53.934184
                 ]
             },
-            "id": 185
+            "id": 40
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 186,
+                "@id": 41,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>пн 11:00–00:00; вт-вс 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -737,12 +737,12 @@
                     53.874811
                 ]
             },
-            "id": 186
+            "id": 41
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 187,
+                "@id": 42,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–01:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -755,12 +755,12 @@
                     53.905652
                 ]
             },
-            "id": 187
+            "id": 42
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 188,
+                "@id": 43,
                 "name": "<strong>Domino's Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -773,12 +773,12 @@
                     53.946355
                 ]
             },
-            "id": 188
+            "id": 43
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 189,
+                "@id": 44,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -791,12 +791,12 @@
                     53.957103
                 ]
             },
-            "id": 189
+            "id": 44
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 190,
+                "@id": 45,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -809,12 +809,12 @@
                     53.928726
                 ]
             },
-            "id": 190
+            "id": 45
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 191,
+                "@id": 46,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -827,12 +827,12 @@
                     53.864838
                 ]
             },
-            "id": 191
+            "id": 46
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 192,
+                "@id": 47,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -845,12 +845,12 @@
                     53.932734
                 ]
             },
-            "id": 192
+            "id": 47
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 193,
+                "@id": 48,
                 "name": "<strong>Domino's Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -863,12 +863,12 @@
                     53.835113
                 ]
             },
-            "id": 193
+            "id": 48
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 194,
+                "@id": 49,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -881,12 +881,12 @@
                     53.937873
                 ]
             },
-            "id": 194
+            "id": 49
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 195,
+                "@id": 50,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–00:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -899,12 +899,12 @@
                     53.878078
                 ]
             },
-            "id": 195
+            "id": 50
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 196,
+                "@id": 51,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–00:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -917,12 +917,12 @@
                     53.90786
                 ]
             },
-            "id": 196
+            "id": 51
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 197,
+                "@id": 52,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -935,12 +935,12 @@
                     53.846874
                 ]
             },
-            "id": 197
+            "id": 52
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 198,
+                "@id": 53,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 07:00–06:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -953,12 +953,12 @@
                     53.919998
                 ]
             },
-            "id": 198
+            "id": 53
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 199,
+                "@id": 54,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–00:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -971,12 +971,12 @@
                     53.858675
                 ]
             },
-            "id": 199
+            "id": 54
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 200,
+                "@id": 55,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -989,12 +989,12 @@
                     53.8626
                 ]
             },
-            "id": 200
+            "id": 55
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 201,
+                "@id": 56,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -1007,12 +1007,12 @@
                     53.875607
                 ]
             },
-            "id": 201
+            "id": 56
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 202,
+                "@id": 57,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -1025,12 +1025,12 @@
                     53.883608
                 ]
             },
-            "id": 202
+            "id": 57
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 203,
+                "@id": 58,
                 "name": "<strong>Domino’s Pizza</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://dominos.by/\">https://dominos.by/</a>",
@@ -1043,12 +1043,138 @@
                     53.911688
                 ]
             },
-            "id": 203
+            "id": 58
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 204,
+                "@id": 59,
+                "name": "<strong>Terra Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 09:30–23:00</p>",
+                "website": "<a href=\"https://www.terrapizza.by/\">https://www.terrapizza.by/</a>",
+                "street": "<p>Минск, проспект Независимости, 83</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.603159,
+                    53.922777
+                ]
+            },
+            "id": 59
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 60,
+                "name": "<strong>Terra pizza</strong>",
+                "opening_hours": "<p>ежедневно, 09:30–23:00</p>",
+                "website": "<a href=\"https://www.terrapizza.by/\">https://www.terrapizza.by/</a>",
+                "street": "<p>Минск, проспект Независимости, 186</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.697882,
+                    53.947944
+                ]
+            },
+            "id": 60
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 61,
+                "name": "<strong>Terra Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 09:30–23:00</p>",
+                "website": "<a href=\"https://www.terrapizza.by/\">https://www.terrapizza.by/</a>",
+                "street": "<p>Минск, улица Жилуновича, 15</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.631174,
+                    53.875891
+                ]
+            },
+            "id": 61
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 62,
+                "name": "<strong>Terra pizza</strong>",
+                "opening_hours": "<p>пн-чт 09:30–23:00; пт,сб 09:30–05:00; вс 09:30–23:00</p>",
+                "website": "<a href=\"https://www.terrapizza.by/\">https://www.terrapizza.by/</a>",
+                "street": "<p>Минск, улица Мележа, 1</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.601848,
+                    53.939556
+                ]
+            },
+            "id": 62
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 63,
+                "name": "<strong>Terra pizza</strong>",
+                "opening_hours": "<p>ежедневно, 09:30–23:00</p>",
+                "website": "<a href=\"https://www.terrapizza.by/\">https://www.terrapizza.by/</a>",
+                "street": "<p>Минск, проспект Победителей, 119</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.473795,
+                    53.938209
+                ]
+            },
+            "id": 63
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 64,
+                "name": "<strong>Terra pizza</strong>",
+                "opening_hours": "<p>пн-чт 09:30–23:00; пт,сб 09:30–05:00; вс 09:30–23:00</p>",
+                "website": "<a href=\"https://www.terrapizza.by/\">https://www.terrapizza.by/</a>",
+                "street": "<p>Минск, улица Бурдейного, 13</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.455129,
+                    53.9037
+                ]
+            },
+            "id": 64
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 65,
+                "name": "<strong>Terra Pizza</strong>",
+                "opening_hours": "<p>ежедневно, 09:30–23:00</p>",
+                "website": "<a href=\"https://www.terrapizza.by/\">https://www.terrapizza.by/</a>",
+                "street": "<p>Минск, улица Притыцкого, 156</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.434471,
+                    53.908141
+                ]
+            },
+            "id": 65
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 66,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1061,12 +1187,12 @@
                     53.863122
                 ]
             },
-            "id": 204
+            "id": 66
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 205,
+                "@id": 67,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1079,12 +1205,12 @@
                     53.921898
                 ]
             },
-            "id": 205
+            "id": 67
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 206,
+                "@id": 68,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://www.kfc.by/\">https://www.kfc.by/</a>",
@@ -1097,12 +1223,12 @@
                     53.898928
                 ]
             },
-            "id": 206
+            "id": 68
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 207,
+                "@id": 69,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"https://www.kfc.by/\">https://www.kfc.by/</a>",
@@ -1115,12 +1241,12 @@
                     53.859222
                 ]
             },
-            "id": 207
+            "id": 69
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 208,
+                "@id": 70,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1133,12 +1259,12 @@
                     53.886582
                 ]
             },
-            "id": 208
+            "id": 70
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 209,
+                "@id": 71,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1151,12 +1277,12 @@
                     53.874544
                 ]
             },
-            "id": 209
+            "id": 71
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 210,
+                "@id": 72,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 04:00–03:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1169,12 +1295,12 @@
                     53.891949
                 ]
             },
-            "id": 210
+            "id": 72
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 211,
+                "@id": 73,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1187,12 +1313,12 @@
                     53.835163
                 ]
             },
-            "id": 211
+            "id": 73
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 212,
+                "@id": 74,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1205,12 +1331,12 @@
                     53.970269
                 ]
             },
-            "id": 212
+            "id": 74
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 213,
+                "@id": 75,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 07:00–00:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1223,12 +1349,12 @@
                     53.946314
                 ]
             },
-            "id": 213
+            "id": 75
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 214,
+                "@id": 76,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1241,12 +1367,12 @@
                     53.870505
                 ]
             },
-            "id": 214
+            "id": 76
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 215,
+                "@id": 77,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1259,12 +1385,12 @@
                     53.908274
                 ]
             },
-            "id": 215
+            "id": 77
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 216,
+                "@id": 78,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1277,12 +1403,12 @@
                     53.865275
                 ]
             },
-            "id": 216
+            "id": 78
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 217,
+                "@id": 79,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1295,12 +1421,12 @@
                     53.933603
                 ]
             },
-            "id": 217
+            "id": 79
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 218,
+                "@id": 80,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1313,12 +1439,12 @@
                     53.919206
                 ]
             },
-            "id": 218
+            "id": 80
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 219,
+                "@id": 81,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>пн-чт 08:00–00:00; пт,сб 08:00–02:00; вс 08:00–00:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1331,12 +1457,12 @@
                     53.905127
                 ]
             },
-            "id": 219
+            "id": 81
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 220,
+                "@id": 82,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"https://www.kfc.by/\">https://www.kfc.by/</a>",
@@ -1349,12 +1475,12 @@
                     53.919491
                 ]
             },
-            "id": 220
+            "id": 82
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 221,
+                "@id": 83,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1367,12 +1493,12 @@
                     53.929174
                 ]
             },
-            "id": 221
+            "id": 83
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 222,
+                "@id": 84,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1385,12 +1511,12 @@
                     53.850311
                 ]
             },
-            "id": 222
+            "id": 84
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 223,
+                "@id": 85,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1403,12 +1529,12 @@
                     53.907327
                 ]
             },
-            "id": 223
+            "id": 85
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 224,
+                "@id": 86,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1421,12 +1547,12 @@
                     53.8925
                 ]
             },
-            "id": 224
+            "id": 86
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 225,
+                "@id": 87,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>пн-чт 08:00–00:00; пт,сб 08:00–01:00; вс 08:00–00:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1439,12 +1565,12 @@
                     53.891733
                 ]
             },
-            "id": 225
+            "id": 87
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 226,
+                "@id": 88,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1457,12 +1583,12 @@
                     53.87549
                 ]
             },
-            "id": 226
+            "id": 88
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 227,
+                "@id": 89,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1475,12 +1601,12 @@
                     53.906164
                 ]
             },
-            "id": 227
+            "id": 89
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 228,
+                "@id": 90,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1493,12 +1619,12 @@
                     53.919481
                 ]
             },
-            "id": 228
+            "id": 90
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 229,
+                "@id": 91,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1511,12 +1637,12 @@
                     53.964035
                 ]
             },
-            "id": 229
+            "id": 91
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 230,
+                "@id": 92,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1529,12 +1655,12 @@
                     53.890705
                 ]
             },
-            "id": 230
+            "id": 92
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 231,
+                "@id": 93,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://www.kfc.by/\">http://www.kfc.by/</a>",
@@ -1547,12 +1673,12 @@
                     53.876806
                 ]
             },
-            "id": 231
+            "id": 93
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 232,
+                "@id": 94,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1565,12 +1691,12 @@
                     53.883664
                 ]
             },
-            "id": 232
+            "id": 94
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 233,
+                "@id": 95,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>пн-чт 10:00–22:00; пт,сб 10:00–23:00; вс 10:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1583,12 +1709,12 @@
                     53.859477
                 ]
             },
-            "id": 233
+            "id": 95
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 234,
+                "@id": 96,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1601,12 +1727,12 @@
                     53.937778
                 ]
             },
-            "id": 234
+            "id": 96
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 235,
+                "@id": 97,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1619,12 +1745,12 @@
                     53.904774
                 ]
             },
-            "id": 235
+            "id": 97
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 236,
+                "@id": 98,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 06:00–02:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1637,12 +1763,12 @@
                     53.906373
                 ]
             },
-            "id": 236
+            "id": 98
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 237,
+                "@id": 99,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1655,12 +1781,12 @@
                     53.858975
                 ]
             },
-            "id": 237
+            "id": 99
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 238,
+                "@id": 100,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1673,12 +1799,12 @@
                     53.939217
                 ]
             },
-            "id": 238
+            "id": 100
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 239,
+                "@id": 101,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1691,12 +1817,12 @@
                     53.928019
                 ]
             },
-            "id": 239
+            "id": 101
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 240,
+                "@id": 102,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1709,12 +1835,12 @@
                     53.908412
                 ]
             },
-            "id": 240
+            "id": 102
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 241,
+                "@id": 103,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1727,12 +1853,12 @@
                     53.895422
                 ]
             },
-            "id": 241
+            "id": 103
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 242,
+                "@id": 104,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1745,12 +1871,12 @@
                     53.873835
                 ]
             },
-            "id": 242
+            "id": 104
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 243,
+                "@id": 105,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1763,12 +1889,12 @@
                     53.865377
                 ]
             },
-            "id": 243
+            "id": 105
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 244,
+                "@id": 106,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://www.kfc.by/\">https://www.kfc.by/</a>",
@@ -1781,12 +1907,12 @@
                     53.849677
                 ]
             },
-            "id": 244
+            "id": 106
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 245,
+                "@id": 107,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>пн-пт 10:00–22:00; сб 10:00–23:00; вс 10:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1799,12 +1925,12 @@
                     53.926894
                 ]
             },
-            "id": 245
+            "id": 107
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 246,
+                "@id": 108,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1817,12 +1943,12 @@
                     53.907306
                 ]
             },
-            "id": 246
+            "id": 108
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 247,
+                "@id": 109,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1835,12 +1961,12 @@
                     53.908321
                 ]
             },
-            "id": 247
+            "id": 109
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 248,
+                "@id": 110,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1853,12 +1979,12 @@
                     53.917168
                 ]
             },
-            "id": 248
+            "id": 110
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 249,
+                "@id": 111,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1871,12 +1997,12 @@
                     53.876169
                 ]
             },
-            "id": 249
+            "id": 111
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 250,
+                "@id": 112,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1889,12 +2015,12 @@
                     53.908819
                 ]
             },
-            "id": 250
+            "id": 112
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 251,
+                "@id": 113,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://kfc.by/\">http://kfc.by/</a>",
@@ -1907,12 +2033,12 @@
                     53.876611
                 ]
             },
-            "id": 251
+            "id": 113
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 252,
+                "@id": 114,
                 "name": "<strong>KFC</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"http://www.kfc.by/\">http://www.kfc.by/</a>",
@@ -1925,12 +2051,12 @@
                     53.883463
                 ]
             },
-            "id": 252
+            "id": 114
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 253,
+                "@id": 115,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -1943,12 +2069,12 @@
                     53.874526
                 ]
             },
-            "id": 253
+            "id": 115
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 254,
+                "@id": 116,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -1961,12 +2087,12 @@
                     53.849447
                 ]
             },
-            "id": 254
+            "id": 116
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 255,
+                "@id": 117,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -1979,12 +2105,12 @@
                     53.891777
                 ]
             },
-            "id": 255
+            "id": 117
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 256,
+                "@id": 118,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -1997,12 +2123,12 @@
                     53.964716
                 ]
             },
-            "id": 256
+            "id": 118
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 257,
+                "@id": 119,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–22:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2015,12 +2141,12 @@
                     53.921673
                 ]
             },
-            "id": 257
+            "id": 119
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 258,
+                "@id": 120,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>пн-чт 08:00–22:00; пт-вс 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2033,12 +2159,12 @@
                     53.925119
                 ]
             },
-            "id": 258
+            "id": 120
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 259,
+                "@id": 121,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2051,12 +2177,12 @@
                     53.871062
                 ]
             },
-            "id": 259
+            "id": 121
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 260,
+                "@id": 122,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2069,12 +2195,12 @@
                     53.946613
                 ]
             },
-            "id": 260
+            "id": 122
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 261,
+                "@id": 123,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2087,12 +2213,12 @@
                     53.91692
                 ]
             },
-            "id": 261
+            "id": 123
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 262,
+                "@id": 124,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2105,12 +2231,12 @@
                     53.928821
                 ]
             },
-            "id": 262
+            "id": 124
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 263,
+                "@id": 125,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2123,12 +2249,12 @@
                     53.933853
                 ]
             },
-            "id": 263
+            "id": 125
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 264,
+                "@id": 126,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 07:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2141,12 +2267,12 @@
                     53.890038
                 ]
             },
-            "id": 264
+            "id": 126
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 265,
+                "@id": 127,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>пн-чт 10:00–22:00; пт-вс 10:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2159,12 +2285,12 @@
                     53.908416
                 ]
             },
-            "id": 265
+            "id": 127
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 266,
+                "@id": 128,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>пн-чт 08:00–23:00; пт,сб 08:00–00:00; вс 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2177,12 +2303,12 @@
                     53.904707
                 ]
             },
-            "id": 266
+            "id": 128
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 267,
+                "@id": 129,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2195,12 +2321,12 @@
                     53.963963
                 ]
             },
-            "id": 267
+            "id": 129
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 268,
+                "@id": 130,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2213,12 +2339,12 @@
                     53.909207
                 ]
             },
-            "id": 268
+            "id": 130
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 269,
+                "@id": 131,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2231,30 +2357,12 @@
                     53.876497
                 ]
             },
-            "id": 269
+            "id": 131
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 270,
-                "name": "<strong>Burger King</strong>",
-                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
-                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
-                "street": "<p>Минск, улица Тимирязева, 74А</p>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    27.509789,
-                    53.926961
-                ]
-            },
-            "id": 270
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": 271,
+                "@id": 132,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>пн-чт 08:00–00:00; пт 08:00–02:00; сб 05:00–02:00; вс 05:00–00:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2267,12 +2375,30 @@
                     53.847363
                 ]
             },
-            "id": 271
+            "id": 132
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 272,
+                "@id": 133,
+                "name": "<strong>Burger King</strong>",
+                "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
+                "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
+                "street": "<p>Минск, улица Тимирязева, 74А</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.509789,
+                    53.926961
+                ]
+            },
+            "id": 133
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": 134,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2285,12 +2411,12 @@
                     53.908361
                 ]
             },
-            "id": 272
+            "id": 134
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 273,
+                "@id": 135,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–00:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2303,12 +2429,12 @@
                     53.907546
                 ]
             },
-            "id": 273
+            "id": 135
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 274,
+                "@id": 136,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2321,12 +2447,12 @@
                     53.911111
                 ]
             },
-            "id": 274
+            "id": 136
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 275,
+                "@id": 137,
                 "name": "<strong>Burger King</strong>",
                 "opening_hours": "<p>ежедневно, 02:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2339,12 +2465,12 @@
                     53.889253
                 ]
             },
-            "id": 275
+            "id": 137
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 276,
+                "@id": 138,
                 "name": "<strong>Кинг драйв</strong>",
                 "opening_hours": "<p>ежедневно, 08:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2357,12 +2483,12 @@
                     53.849497
                 ]
             },
-            "id": 276
+            "id": 138
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 277,
+                "@id": 139,
                 "name": "<strong>Burger King авто</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–23:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2375,12 +2501,12 @@
                     53.911088
                 ]
             },
-            "id": 277
+            "id": 139
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 278,
+                "@id": 140,
                 "name": "<strong>Burger King ресторан Бургер БК</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–22:00</p>",
                 "website": "<a href=\"http://burger-king.by/\">http://burger-king.by/</a>",
@@ -2393,12 +2519,12 @@
                     53.90867
                 ]
             },
-            "id": 278
+            "id": 140
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 279,
+                "@id": 141,
                 "name": "<strong>Кинг Драйв</strong>",
                 "opening_hours": "<p>ежедневно, 09:00–00:00</p>",
                 "website": "<a href=\"https://burger-king.by/\">https://burger-king.by/</a>",
@@ -2411,12 +2537,12 @@
                     53.876583
                 ]
             },
-            "id": 279
+            "id": 141
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 280,
+                "@id": 142,
                 "name": "<strong>TokiNY</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://tokiny.by/\">https://tokiny.by/</a>",
@@ -2429,12 +2555,12 @@
                     53.927421
                 ]
             },
-            "id": 280
+            "id": 142
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 281,
+                "@id": 143,
                 "name": "<strong>TokiNY</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://tokiny.by/\">https://tokiny.by/</a>",
@@ -2447,12 +2573,12 @@
                     53.913778
                 ]
             },
-            "id": 281
+            "id": 143
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 282,
+                "@id": 144,
                 "name": "<strong>TokiNY</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–00:45</p>",
                 "website": "<a href=\"https://tokiny.by/\">https://tokiny.by/</a>",
@@ -2465,12 +2591,12 @@
                     53.9071
                 ]
             },
-            "id": 282
+            "id": 144
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 283,
+                "@id": 145,
                 "name": "<strong>Sushi House</strong>",
                 "opening_hours": "<p>ежедневно, круглосуточно</p>",
                 "website": "<a href=\"https://sushihouse.by/\">https://sushihouse.by/</a>",
@@ -2483,12 +2609,12 @@
                     53.907456
                 ]
             },
-            "id": 283
+            "id": 145
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 284,
+                "@id": 146,
                 "name": "<strong>Sushi House</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://sushihouse.by/\">https://sushihouse.by/</a>",
@@ -2501,12 +2627,12 @@
                     53.880238
                 ]
             },
-            "id": 284
+            "id": 146
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 285,
+                "@id": 147,
                 "name": "<strong>Sushi House</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://sushihouse.by/\">https://sushihouse.by/</a>",
@@ -2519,12 +2645,12 @@
                     53.954964
                 ]
             },
-            "id": 285
+            "id": 147
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 286,
+                "@id": 148,
                 "name": "<strong>Sushi House</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://sushihouse.by/\">https://sushihouse.by/</a>",
@@ -2537,12 +2663,12 @@
                     53.911043
                 ]
             },
-            "id": 286
+            "id": 148
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 287,
+                "@id": 149,
                 "name": "<strong>Суши Хаус</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–23:00</p>",
                 "website": "<a href=\"https://sushihouse.by/\">https://sushihouse.by/</a>",
@@ -2555,12 +2681,12 @@
                     53.876297
                 ]
             },
-            "id": 287
+            "id": 149
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 288,
+                "@id": 150,
                 "name": "<strong>Sushi House</strong>",
                 "opening_hours": "<p>ежедневно, 10:00–21:00</p>",
                 "website": "<a href=\"https://sushihouse.by/\">https://sushihouse.by/</a>",
@@ -2573,12 +2699,12 @@
                     53.861379
                 ]
             },
-            "id": 288
+            "id": 150
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 289,
+                "@id": 151,
                 "name": "<strong>Sushi House</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://sushihouse.by/\">https://sushihouse.by/</a>",
@@ -2591,12 +2717,12 @@
                     53.876705
                 ]
             },
-            "id": 289
+            "id": 151
         },
         {
             "type": "Feature",
             "properties": {
-                "@id": 290,
+                "@id": 152,
                 "name": "<strong>Sushi House</strong>",
                 "opening_hours": "<p>ежедневно, 11:00–23:00</p>",
                 "website": "<a href=\"https://sushihouse.by/\">https://sushihouse.by/</a>",
@@ -2609,7 +2735,7 @@
                     53.926827
                 ]
             },
-            "id": 290
+            "id": 152
         }
     ]
 }
