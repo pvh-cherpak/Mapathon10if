@@ -12,9 +12,14 @@ var promoute;
 var currentPage = 0;
 var max_page_prompte = 0;
 
-var popup = new mapboxgl.Popup();
+var popup
 
 function loadMap(){
+	document.getElementById("buttons1").style.display = "None";
+	try{
+	popup.remove();
+	}
+	catch(e){}
 	// Add geolocate control to the map.
 	map.addSource('restarans_sourse', {
 		'type': 'geojson',
@@ -91,8 +96,6 @@ map.on('mouseleave', 'places', () => {
 });
 
 
-
-
 var jsonDataAkcii;
 var jsonDataAkcii_is_load = false;
 
@@ -135,7 +138,10 @@ function select(selector) {
 			[...Filterbytype(jsonDataAkcii, "фастфуд"), ...Filterbytype(jsonDataAkcii, "пицца"), ...Filterbytype(jsonDataAkcii, "суши")]));
 	}
 	else{
+	try{
 	popup.remove();
+	}
+	catch(e){}
 	document.getElementById("buttons1").style.display = "None";
 	document.getElementById("sales").innerHTML = '<div>' +"Нажмите на ресторан, чтобы увидеть действующие акции и предложения"+ '</div>';
 	
