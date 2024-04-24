@@ -12,7 +12,7 @@ var promoute;
 var currentPage = 0;
 var max_page_prompte = 0;
 
-var popup
+var popup = new mapboxgl.Popup()
 
 function loadMap(){
 	document.getElementById("buttons1").style.display = "None";
@@ -60,8 +60,7 @@ function loadMap(){
 			coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
 		}
 
-		popup = new mapboxgl.Popup()
-			.setLngLat(coordinates)
+		popup.setLngLat(coordinates)
 			.setHTML(descriptionName + descriptionOpening_hours + descriptionStreet + descriptionWebsite)
 			.addTo(map);
 	});
