@@ -16,6 +16,7 @@ var popup = new mapboxgl.Popup();
 
 function loadMap(){
 	document.getElementById("buttons1").style.display = "None";
+	popup.remove();
 	// Add geolocate control to the map.
 	map.addSource('restarans_sourse', {
 		'type': 'geojson',
