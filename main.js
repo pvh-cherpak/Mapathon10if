@@ -16,17 +16,6 @@ var popup = new mapboxgl.Popup();
 
 function loadMap(){
 	// Add geolocate control to the map.
-	map.addControl(
-		new mapboxgl.GeolocateControl({
-			positionOptions: {
-				enableHighAccuracy: true
-			},
-			// When active the map will receive updates to the device's location as it changes.
-			trackUserLocation: true,
-			// Draw an arrow next to the location dot to indicate which direction the device is heading.
-			showUserHeading: true
-		})
-	);
 	map.addSource('restarans_sourse', {
 		'type': 'geojson',
 		'data': './restaurants.geojson'
@@ -73,6 +62,17 @@ function loadMap(){
 }
 
 map.on('load', () => {
+	map.addControl(
+		new mapboxgl.GeolocateControl({
+			positionOptions: {
+				enableHighAccuracy: true
+			},
+			// When active the map will receive updates to the device's location as it changes.
+			trackUserLocation: true,
+			// Draw an arrow next to the location dot to indicate which direction the device is heading.
+			showUserHeading: true
+		})
+	);
 	loadMap()
 });
 
